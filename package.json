@@ -1,0 +1,26 @@
+{
+  "name": "trans",
+  "version": "0.0.0",
+  "description": "command line translation tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JMwill/blog.git"
+  },
+  "keywords": [
+    "bash",
+    "shell",
+    "translation",
+    "tool",
+    "NodeJs"
+  ],
+  "author": "JMwill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JMwill/blog/issues"
+  },
+  "homepage": "https://github.com/JMwill/blog#readme"
+}
