@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/JMwill/blog/issues"
   },
-  "homepage": "https://github.com/JMwill/blog#readme"
+  "homepage": "https://github.com/JMwill/blog#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
 }
