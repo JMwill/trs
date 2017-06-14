@@ -4,6 +4,7 @@ const co        = require('co');
 const prompt    = require('co-prompt');
 const request   = require('superagent');
 const program   = require('commander');
+const chalk     = require('chalk');
 
 program
     .arguments('<file>')
@@ -21,7 +22,7 @@ program
                 .end(function (err, res) {
                     if (!err && res.ok) {
                         let link = res.body.links.html.href;
-                        console.log('Snippet created: %s', link);
+                        console.log(chalk.bold.cyan('Snippet created: ') + link);
                         process.exit(0);
                     }
 
@@ -33,8 +34,9 @@ program
                     } else {
                         errMessage = res.text;
                     }
-                    console.error(errMessage);
-                    process.exit(0);
+                    console.error();
+                    console.log(chalk.red(errMessage));
+                    process.exit(1);
                 });
         });
     })
