@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/JMwill/blog.git"
+    "url": "git+ssh://git@github.com/JMwill/trans.git"
   },
   "keywords": [
     "bash",
@@ -23,9 +23,9 @@
   "author": "JMwill",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JMwill/blog/issues"
+    "url": "https://github.com/JMwill/trans/issues"
   },
-  "homepage": "https://github.com/JMwill/blog#readme",
+  "homepage": "https://github.com/JMwill/trans#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "co": "^4.6.0",
