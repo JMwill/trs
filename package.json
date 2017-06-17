@@ -1,17 +1,17 @@
 {
-  "name": "trans",
+  "name": "trs",
   "version": "0.0.0",
   "description": "command line translation tool",
   "main": "index.js",
   "bin": {
-    "trans": "./index.js"
+    "trs": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/JMwill/trans.git"
+    "url": "git+ssh://git@github.com/JMwill/trs.git"
   },
   "keywords": [
     "bash",
@@ -23,9 +23,9 @@
   "author": "JMwill",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JMwill/trans/issues"
+    "url": "https://github.com/JMwill/trs/issues"
   },
-  "homepage": "https://github.com/JMwill/trans#readme",
+  "homepage": "https://github.com/JMwill/trs#readme",
   "dependencies": {
     "boxen": "^1.1.0",
     "chalk": "^1.1.3",

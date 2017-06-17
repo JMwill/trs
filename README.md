@@ -1,2 +1,2 @@
-# trans
+# trs
 command line translation tool
