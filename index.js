@@ -4,6 +4,8 @@ const program       = require('commander');
 const chalk         = require('chalk');
 const helper        = require('./helper');
 const ora           = require('ora');
+const boxen         = require('boxen');
+const logUpdate     = require('log-update');
 
 let langMap = {
     ara: "阿拉伯语",
@@ -40,14 +42,19 @@ let langMap = {
 let spinner = ora({
     text: 'Translating...',
     color: 'blue',
-}).start();
+});
 
 function trans(words, to='en') {
     return helper.detectlang(words)
         .then(from => {
             if (from === to) {
-                // console.log(chalk.blue(words));
-                spinner.succeed(chalk.blue(result));
+                spinner.stop();
+                logUpdate(
+                    boxen(
+                        chalk.blue(words),
+                        { padding: 1, margin: 1 }
+                    )
+                )
                 process.exit(0);
             } else {
                 return helper.makeTransOpt(from, to, words);
@@ -57,13 +64,23 @@ function trans(words, to='en') {
             return helper.translate(transOpt)
         })
         .then(result => {
-            // console.log(chalk.blue(result));
-            spinner.succeed(chalk.blue(result));
+            spinner.stop();
+            logUpdate(
+                boxen(
+                    chalk.blue(result),
+                    { padding: 1, margin: 1 }
+                )
+            );
             process.exit(0);
         })
         .catch(err => {
-            // console.log(chalk.bold.red(err));
-            spinner.fail(chalk.blue(result));
+            spinner.stop();
+            logUpdate(
+                boxen(
+                    chalk.bold.red(result),
+                    { padding: 1, margin: 1 }
+                )
+            );
             process.exit(1);
         });
 }
