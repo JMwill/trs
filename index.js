@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 
+const os            = require('os');
 const program       = require('commander');
 const chalk         = require('chalk');
 const helper        = require('./helper');
 const ora           = require('ora');
-const boxen         = require('boxen');
-const logUpdate     = require('log-update');
 
 let langMap = {
     ara: "阿拉伯语",
@@ -44,39 +43,32 @@ let spinner = ora({
     color: 'blue',
 });
 
-function printBoxLogUpdate(str, padding=0, margin=0) {
-    logUpdate(
-        boxen(
-            str,
-            {padding: padding, margin: margin}
-        )
-    );
+function trans(words, to='en') {
+    return new Promise((resolve, reject) => {
+        helper.detectlang(words)
+            .then(from => {
+                return helper.makeTransOpt(from, to, words);
+            })
+            .then(transOpt => {
+                resolve(helper.translate(transOpt));
+            })
+            .catch(err => {
+                reject(err);
+            });
+    });
 }
 
-function trans(words, to='en') {
-    return helper.detectlang(words)
-        .then(from => {
-            if (from === to) {
-                spinner.stop();
-                printBoxLogUpdate(chalk.blue(words));
-                process.exit(0);
-            } else {
-                return helper.makeTransOpt(from, to, words);
-            }
-        })
-        .then(transOpt => {
-            return helper.translate(transOpt)
-        })
-        .then(result => {
-            spinner.stop();
-            printBoxLogUpdate(chalk.blue(result));
-            process.exit(0);
-        })
-        .catch(err => {
-            spinner.stop();
-            printBoxLogUpdate(chalk.bold.red(result));
-            process.exit(1);
-        });
+function transSug(words) {
+    return new Promise((resolve, reject) => {
+        helper.suggestTrans(words)
+            .then(data => {
+                if (Array.isArray(data)) { resolve(data); }
+                else { resolve([]); }
+            })
+            .catch(err => {
+                reject(err);
+            });
+    });
 }
 
 program
@@ -86,6 +78,18 @@ program
     .action(function (words) {
         let searchWords = words.join(' ');
         spinner.start();
-        trans(searchWords, program.transto);
+        Promise.all([trans(searchWords, program.transto), transSug(searchWords)])
+            .then(results => {
+                spinner.stop();
+                helper.printBoxLogUpdate(
+                    chalk.blue(`翻译结果: ${results[0]}${os.EOL+os.EOL}建议: ${os.EOL}${helper.formatSug(results[1])}`)
+                );
+                process.exit(0);
+            })
+            .catch(err => {
+                spinner.stop();
+                helper.printBoxLogUpdate(chalk.bold.red(err));
+                process.exit(1);
+            });
     })
     .parse(process.argv);
