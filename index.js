@@ -44,17 +44,21 @@ let spinner = ora({
     color: 'blue',
 });
 
+function printBoxLogUpdate(str, padding=0, margin=0) {
+    logUpdate(
+        boxen(
+            str,
+            {padding: padding, margin: margin}
+        )
+    );
+}
+
 function trans(words, to='en') {
     return helper.detectlang(words)
         .then(from => {
             if (from === to) {
                 spinner.stop();
-                logUpdate(
-                    boxen(
-                        chalk.blue(words),
-                        { padding: 1, margin: 1 }
-                    )
-                )
+                printBoxLogUpdate(chalk.blue(words));
                 process.exit(0);
             } else {
                 return helper.makeTransOpt(from, to, words);
@@ -65,22 +69,12 @@ function trans(words, to='en') {
         })
         .then(result => {
             spinner.stop();
-            logUpdate(
-                boxen(
-                    chalk.blue(result),
-                    { padding: 1, margin: 1 }
-                )
-            );
+            printBoxLogUpdate(chalk.blue(result));
             process.exit(0);
         })
         .catch(err => {
             spinner.stop();
-            logUpdate(
-                boxen(
-                    chalk.bold.red(result),
-                    { padding: 1, margin: 1 }
-                )
-            );
+            printBoxLogUpdate(chalk.bold.red(result));
             process.exit(1);
         });
 }
