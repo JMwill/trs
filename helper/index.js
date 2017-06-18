@@ -79,11 +79,11 @@ function makeTransOpt(from, to, words) {
     };
 }
 
-function printBoxLogUpdate(str, padding=0, margin=0) {
+function printBoxLogUpdate(str, padding=0, margin=0, borderStyle='double') {
     logUpdate(
         boxen(
             str,
-            {padding: padding, margin: margin}
+            {padding: padding, margin: margin, borderStyle: borderStyle}
         )
     );
 }
