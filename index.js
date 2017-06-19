@@ -5,6 +5,7 @@ const program       = require('commander');
 const chalk         = require('chalk');
 const helper        = require('./helper');
 const ora           = require('ora');
+const clipboard     = require('clipboardy');
 
 let langMap = {
     ara: "阿拉伯语",
@@ -71,25 +72,37 @@ function transSug(words) {
     });
 }
 
+function runTrans(searchWords, transTo='zh') {
+    spinner.start();
+    Promise.all([trans(searchWords, transTo), transSug(searchWords)])
+        .then(results => {
+            spinner.stop();
+            helper.printBoxLogUpdate(
+                chalk.blue(`翻译结果: ${results[0]}${os.EOL+os.EOL}建议: ${os.EOL}${helper.formatSug(results[1])}`)
+            );
+            process.exit(0);
+        })
+        .catch(err => {
+            spinner.stop();
+            helper.printBoxLogUpdate(chalk.bold.red(err));
+            process.exit(1);
+        });
+}
+
 program
-    .arguments('[words...]')
     .version('0.0.1')
-    .option('-t --transto [lang]', 'translate to particular language')
+    .arguments('[words...]')
+    .option('-t, --transto <lang>', 'translate to particular language')
     .action(function (words) {
         let searchWords = words.join(' ');
-        spinner.start();
-        Promise.all([trans(searchWords, program.transto), transSug(searchWords)])
-            .then(results => {
-                spinner.stop();
-                helper.printBoxLogUpdate(
-                    chalk.blue(`翻译结果: ${results[0]}${os.EOL+os.EOL}建议: ${os.EOL}${helper.formatSug(results[1])}`)
-                );
-                process.exit(0);
-            })
-            .catch(err => {
-                spinner.stop();
-                helper.printBoxLogUpdate(chalk.bold.red(err));
-                process.exit(1);
-            });
-    })
-    .parse(process.argv);
+        runTrans(searchWords, program.transto);
+    });
+
+
+program.parse(process.argv);
+
+if (!process.argv.slice(2).length) {
+    let searchWords = clipboard.readSync();
+    runTrans(searchWords);
+}
+
