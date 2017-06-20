@@ -7,7 +7,11 @@
     "trs": "./dist/index.js"
   },
   "scripts": {
-    "build": "babel src -d dist",
+    "prebuild": "rm -rf dist",
+    "build": "npm run eslint && npm run babel",
+    "dev": "babel src --watch -d dist",
+    "babel": "babel src -d dist",
+    "eslint": "eslint --cache --fix src/**",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
