@@ -42,7 +42,7 @@ let langMap = {
     vie: '越南语',
     wyw: '文言文',
     yue: '粤语',
-    zh: '中文'
+    zh: '中文',
 };
 
 
