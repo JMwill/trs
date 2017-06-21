@@ -3,6 +3,7 @@
 const os = require('os');
 const program = require('commander');
 const chalk = require('chalk');
+const logUpdate = require('log-update');
 const helper = require('./helper');
 const ora = require('ora');
 const clipboard = require('clipboardy');
@@ -74,13 +75,12 @@ async function runTrans(searchWords, transTo = 'zh') {
         let sugTransResult = await transSug(searchWords);
         spinner.stop();
 
-        helper.printBoxLogUpdate(
-            chalk.blue(`翻译结果: ${transResult}${os.EOL + os.EOL}建议: ${os.EOL}${helper.formatSug(sugTransResult)}`),
-        );
+        transResult = `翻译结果: ${transResult}${os.EOL + os.EOL}建议: ${os.EOL}${helper.formatSug(sugTransResult)}`;
+        logUpdate(chalk.blue(helper.doubleBoxen(transResult)));
         process.exit(0);
     } catch (err) {
         spinner.stop();
-        helper.printBoxLogUpdate(chalk.bold.red(err));
+        logUpdate(chalk.bold.red(helper.doubleBoxen(err)));
         process.exit(1);
     }
 }

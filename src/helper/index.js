@@ -58,24 +58,15 @@ function makeTransOpt(from, to, words) {
     };
 }
 
-function printBoxLogUpdate(str, padding = 0, margin = 0, borderStyle = 'double') {
-    logUpdate(
-        boxen(
-            str,
-            {
-                padding,
-                margin,
-                borderStyle,
-            },
-        ),
-    );
+function doubleBoxen(str) {
+    return boxen(str, { borderStyle: 'double' });
 }
 
 module.exports = {
     detectlang,
     translate,
     makeTransOpt,
-    printBoxLogUpdate,
+    doubleBoxen,
     formatSug,
     suggestTrans,
 };
