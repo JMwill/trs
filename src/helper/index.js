@@ -1,7 +1,6 @@
 const os = require('os');
 const request = require('superagent');
 const boxen = require('boxen');
-const logUpdate = require('log-update');
 
 async function reqTo(url, opt) {
     try {
