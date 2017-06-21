@@ -46,44 +46,43 @@ let langMap = {
 };
 
 
-function trans(words, to = 'en') {
-    return new Promise((resolve, reject) => {
-        helper.detectlang(words)
-            .then(from => helper.makeTransOpt(from, to, words))
-            .then(transOpt => resolve(helper.translate(transOpt)))
-            .catch(err => reject(err));
-    });
+async function trans(words, to = 'en') {
+    try {
+        let lang = await helper.detectlang(words);
+        let transOpt = helper.makeTransOpt(lang, to, words);
+        let transResult = await helper.translate(transOpt);
+        return transResult;
+    } catch (err) {
+        throw new Error(`trans function got an error: ${err}`);
+    }
 }
 
-function transSug(words) {
-    return new Promise((resolve, reject) => {
-        helper.suggestTrans(words)
-            .then((data) => {
-                if (Array.isArray(data)) {
-                    resolve(data);
-                } else {
-                    resolve([]);
-                }
-            })
-            .catch(err => reject(err));
-    });
+async function transSug(words) {
+    try {
+        let sugTransResult = await helper.suggestTrans(words);
+        if (!Array.isArray(sugTransResult)) { sugTransResult = []; }
+        return sugTransResult;
+    } catch (err) {
+        throw new Error(`transSub function got an error: ${err}`);
+    }
 }
 
-function runTrans(searchWords, transTo = 'zh') {
+async function runTrans(searchWords, transTo = 'zh') {
     spinner.start();
-    Promise.all([trans(searchWords, transTo), transSug(searchWords)])
-        .then((results) => {
-            spinner.stop();
-            helper.printBoxLogUpdate(
-                chalk.blue(`翻译结果: ${results[0]}${os.EOL + os.EOL}建议: ${os.EOL}${helper.formatSug(results[1])}`),
-            );
-            process.exit(0);
-        })
-        .catch((err) => {
-            spinner.stop();
-            helper.printBoxLogUpdate(chalk.bold.red(err));
-            process.exit(1);
-        });
+    try {
+        let transResult = await trans(searchWords, transTo);
+        let sugTransResult = await transSug(searchWords);
+        spinner.stop();
+
+        helper.printBoxLogUpdate(
+            chalk.blue(`翻译结果: ${transResult}${os.EOL + os.EOL}建议: ${os.EOL}${helper.formatSug(sugTransResult)}`),
+        );
+        process.exit(0);
+    } catch (err) {
+        spinner.stop();
+        helper.printBoxLogUpdate(chalk.bold.red(err));
+        process.exit(1);
+    }
 }
 
 program

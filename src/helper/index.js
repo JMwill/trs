@@ -3,54 +3,44 @@ const request = require('superagent');
 const boxen = require('boxen');
 const logUpdate = require('log-update');
 
-function reqTo(url, opt) {
-    return request
-        .post(url)
-        .set('Content-Type', 'application/json')
-        .type('form')
-        .send(opt);
+async function reqTo(url, opt) {
+    try {
+        let res = await request
+            .post(url)
+            .set('Content-Type', 'application/json')
+            .type('form')
+            .send(opt);
+        return res;
+    } catch (err) {
+        throw new Error(`reqTo got an error: ${err}`);
+    }
 }
 
-function detectlang(detectword) {
-    return new Promise((resolve, reject) => {
-        reqTo('http://fanyi.baidu.com/langdetect', { query: detectword })
-            .end((err, res) => {
-                if (err) { reject(err); }
-                try {
-                    resolve(res.body.lan);
-                } catch (catErr) {
-                    reject(catErr);
-                }
-            });
-    });
+async function detectlang(detectword) {
+    try {
+        let res = await reqTo('http://fanyi.baidu.com/langdetect', { query: detectword });
+        return res.body.lan;
+    } catch (err) {
+        throw new Error(`detectlang function got an error: ${err}`);
+    }
 }
 
-function suggestTrans(needSubWords) {
-    return new Promise((resolve, reject) => {
-        reqTo('http://fanyi.baidu.com/sug', { kw: needSubWords })
-            .end((err, res) => {
-                if (err) { reject(err); }
-                try {
-                    resolve(res.body.data);
-                } catch (catErr) {
-                    reject(catErr);
-                }
-            });
-    });
+async function suggestTrans(needSubWords) {
+    try {
+        let res = await reqTo('http://fanyi.baidu.com/sug', { kw: needSubWords });
+        return res.body.data;
+    } catch (err) {
+        throw new Error(`suggestTrans function got an error: ${err}`);
+    }
 }
 
-function translate(reqOpt) {
-    return new Promise((resolve, reject) => {
-        reqTo('http://fanyi.baidu.com/v2transapi', reqOpt)
-            .end((err, res) => {
-                if (err) { reject(err); }
-                try {
-                    resolve(res.body.trans_result.data[0].dst);
-                } catch (catErr) {
-                    reject(catErr);
-                }
-            });
-    });
+async function translate(reqOpt) {
+    try {
+        let res = await reqTo('http://fanyi.baidu.com/v2transapi', reqOpt);
+        return res.body.trans_result.data[0].dst;
+    } catch (err) {
+        throw new Error(`translate function got an error: ${err}`);
+    }
 }
 
 function formatSug(sugs) {
