@@ -42,10 +42,20 @@ async function translate(reqOpt) {
     }
 }
 
+/**
+ * @param {Object} sugs
+ * @returns String
+ */
 function formatSug(sugs) {
-    return sugs.map(s => `${s.k}:${s.v}${os.EOL}`).join('');
+    return sugs.map(s => ((s.k && s.v) ? `${s.k}:${s.v}${os.EOL}` : '')).join('');
 }
 
+/**
+ * @param {String} from
+ * @param {String} to
+ * @param {String} words
+ * @returns Object
+ */
 function makeTransOpt(from, to, words) {
     if (from === to) { from = 'auto'; }
     return {
@@ -57,6 +67,10 @@ function makeTransOpt(from, to, words) {
     };
 }
 
+/**
+ * @param {String} str
+ * @returns String
+ */
 function doubleBoxen(str) {
     return boxen(str, { borderStyle: 'double' });
 }
