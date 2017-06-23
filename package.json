@@ -7,8 +7,8 @@
     "trs": "./dist/index.js"
   },
   "scripts": {
-    "prebuild": "rm -rf dist",
-    "build": "npm run eslint && npm test  && npm run babel",
+    "prebuild": "rimraf dist",
+    "build": "npm-run-all eslint test babel",
     "dev": "babel src --watch -d dist",
     "babel": "babel src -d dist",
     "eslint": "eslint --cache --fix src/**",
@@ -56,6 +56,8 @@
     "eslint": "^4.0.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.3.0",
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1"
   }
 }
