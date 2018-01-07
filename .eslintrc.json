@@ -3,11 +3,15 @@
         "node": true,
         "jest": true
     },
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
     "extends": "airbnb-base",
     "rules": {
         "prefer-const": "off",
         "no-console": "off",
         "no-param-reassign": "off",
-        "indent": ["error", 4]
+        "indent": ["error", 2],
+        "semi": ["error", "never"]
     }
 }
