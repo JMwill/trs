@@ -1,0 +1,724 @@
+{
+  "langdetect": { "error": 0, "msg": "success", "lan": "zh" },
+  "sug": {
+    "errno": 0,
+    "data": [
+      {
+        "k": "分",
+        "v": "[fēn] 动 divide; separate; distribute; assign; 名 br"
+      },
+      {
+        "k": "分钟",
+        "v": "[fēn zhōng] minute; min;"
+      },
+      {
+        "k": "分析",
+        "v": "[fēn xī] analysis; analytical; analyse;"
+      },
+      {
+        "k": "分开",
+        "v": "[fēn kāi] separate; split; part; uncouple; asunder"
+      },
+      {
+        "k": "分手",
+        "v": "[fēn shǒu] part; part company; say good-bye; separ"
+      }
+    ]
+  },
+  "v2transapi": {
+    "trans_result": {
+      "from": "en",
+      "to": "zh",
+      "domain": "all",
+      "type": 2,
+      "status": 0,
+      "data": [
+        {
+          "dst": "\u5efa\u8bae",
+          "prefixWrap": 0,
+          "src": "suggestion",
+          "relation": [],
+          "result": [[0, "\u5efa\u8bae", ["0|10"], [], ["0|10"], ["0|6"]]]
+        }
+      ],
+      "phonetic": [
+        { "src_str": "\u5efa", "trg_str": "ji\u00e0n" },
+        { "src_str": "\u8bae", "trg_str": "y\u00ec" }
+      ]
+    },
+    "dict_result": {
+      "edict": {
+        "item": [
+          {
+            "tr_group": [
+              {
+                "tr": ["the act of inducing hypnosis"],
+                "example": [],
+                "similar_word": ["hypnotism", "mesmerism"]
+              },
+              {
+                "tr": [
+                  "the sequential mental process in which one thought leads to another by association"
+                ],
+                "example": [],
+                "similar_word": []
+              },
+              {
+                "tr": ["an idea that is suggested"],
+                "example": ["the picnic was her suggestion"],
+                "similar_word": []
+              },
+              {
+                "tr": ["a proposal offered for acceptance or rejection"],
+                "example": ["it was a suggestion we couldn't refuse"],
+                "similar_word": ["proposition", "proffer"]
+              },
+              {
+                "tr": ["persuasion formulated as a suggestion"],
+                "example": [],
+                "similar_word": ["prompting"]
+              },
+              {
+                "tr": ["a just detectable amount"],
+                "example": ["he speaks French with a trace of an accent"],
+                "similar_word": ["trace", "hint"]
+              }
+            ],
+            "pos": "noun"
+          }
+        ],
+        "word": "suggestion"
+      },
+      "zdict": "",
+      "from": "kingsoft",
+      "simple_means": {
+        "word_name": "suggestion",
+        "from": "kingsoft",
+        "word_means": [
+          "\u5efa\u8bae\uff0c\u610f\u89c1\uff0c\u6697\u793a",
+          "\u8054\u60f3\uff0c\u542f\u53d1",
+          "\u5fae\u91cf"
+        ],
+        "tags": { "core": ["\u9ad8\u8003", "\u8003\u7814"], "other": [""] },
+        "exchange": {
+          "word_third": "",
+          "word_done": "",
+          "word_pl": ["suggestions"],
+          "word_est": "",
+          "word_ing": "",
+          "word_er": "",
+          "word_past": ""
+        },
+        "symbols": [
+          {
+            "ph_am_mp3": "/1/0/61/9f/619f3ae20e20d469ee2147e4036aeef1.mp3",
+            "ph_am":
+              "s\u0259\u0261\u02c8d\u0292\u025bst\u0283\u0259n, s\u0259\u02c8d\u0292\u025bs-",
+            "ph_en_mp3": "/oxford/0/1b/9c/1b9c59adddf84556250e931bedf33a75.mp3",
+            "ph_en": "s\u0259\u02c8d\u0292est\u0283\u0259n",
+            "ph_other": "",
+            "parts": [
+              {
+                "part": "n.",
+                "means": [
+                  "\u5efa\u8bae\uff0c\u610f\u89c1\uff0c\u6697\u793a",
+                  "\u8054\u60f3\uff0c\u542f\u53d1",
+                  "\u5fae\u91cf"
+                ]
+              }
+            ],
+            "ph_tts_mp3": "/6/1/9/619f3ae20e20d469ee2147e4036aeef1.mp3"
+          }
+        ],
+        "is_CRI": "1"
+      },
+      "collins": {
+        "entry": [
+          {
+            "type": "mean",
+            "entry_id": "67872",
+            "value": [
+              {
+                "mean_type": [
+                  {
+                    "info_type": "example",
+                    "info_id": "91914",
+                    "example": [
+                      {
+                        "example_id": "88369",
+                        "tts_size": "25.0",
+                        "tran":
+                          "\u8fd9\u4f4d\u8425\u517b\u5b66\u5bb6\u5c31\u5982\u4f55\u6539\u5584\u996e\u98df\u7ed9\u6211\u63d0\u51fa\u4e86\u4e9b\u5efa\u8bae\uff0c\u5bf9\u6211\u5f88\u6709\u5e2e\u52a9\u3002",
+                        "ex":
+                          "The dietitian was helpful, making suggestions as to how I could improve my diet...",
+                        "tts_mp3": "2/1/8/218fcb0f8b15d3164772caf04cc139c3.mp3"
+                      }
+                    ]
+                  },
+                  {
+                    "info_type": "example",
+                    "info_id": "91915",
+                    "example": [
+                      {
+                        "example_id": "88370",
+                        "tts_size": "15.0",
+                        "tran":
+                          "\u4e5f\u8bb8\u4ed6\u5df2\u7ecf\u542c\u4ece\u4e86\u5979\u7684\u5efa\u8bae\u53bb\u6cb3\u8fb9\u6563\u6b65\u4e86\u3002",
+                        "ex":
+                          "Perhaps he'd followed her suggestion of a stroll to the river...",
+                        "tts_mp3": "2/c/7/2c7aaa341f78d55e07ae3d1bcaed7e8d.mp3"
+                      }
+                    ]
+                  },
+                  {
+                    "info_type": "example",
+                    "info_id": "91916",
+                    "example": [
+                      {
+                        "example_id": "88371",
+                        "tts_size": "15.0",
+                        "tran":
+                          "\u5bf9\u4e8e\u516c\u56ed\u672a\u6765\u7684\u89c4\u5212\u6211\u6709\u5f88\u591a\u63d0\u8bae\u3002",
+                        "ex":
+                          "I have lots of suggestions for the park's future.",
+                        "tts_mp3": "d/c/7/dc77713f78ec30638ee6760f1f09ba2d.mp3"
+                      }
+                    ]
+                  }
+                ],
+                "gramarinfo": [
+                  {
+                    "tran": "",
+                    "type": "hdgr",
+                    "label": "oft N <l>of/for</l> n/-ing"
+                  }
+                ],
+                "tran": "\u5efa\u8bae;\u63d0\u8bae",
+                "def":
+                  "If you make a <b>suggestion</b>, you put forward an idea or plan for someone to think about.",
+                "mean_id": "64945",
+                "posp": [{ "label": "N-COUNT" }]
+              }
+            ]
+          },
+          {
+            "type": "mean",
+            "entry_id": "67873",
+            "value": [
+              {
+                "mean_type": [
+                  {
+                    "info_type": "example",
+                    "info_id": "91917",
+                    "example": [
+                      {
+                        "example_id": "88372",
+                        "tts_size": "15.0",
+                        "tran":
+                          "\u5bf9\u4e8e\u4efb\u4f55\u6697\u793a\u8be5\u6cd5\u5f8b\u9700\u8981\u4fee\u6539\u7684\u89c2\u70b9\u6211\u4eec\u90fd\u62d2\u7edd\u63a5\u53d7\u3002",
+                        "ex":
+                          "We reject any suggestion that the law needs amending...",
+                        "tts_mp3": "e/3/0/e303fe8d802f93a31de36381df568f69.mp3"
+                      }
+                    ]
+                  },
+                  {
+                    "info_type": "example",
+                    "info_id": "91918",
+                    "example": [
+                      {
+                        "example_id": "88373",
+                        "tts_size": "19.0",
+                        "tran":
+                          "\u6709\u4eba\u8ba4\u4e3a\u4ed6\u53ef\u80fd\u4f1a\u53d7\u5230\u793e\u4f1a\u515a\u7684\u652f\u6301\u3002",
+                        "ex":
+                          "There are suggestions that he might be supported by the Socialists.",
+                        "tts_mp3": "c/e/a/cea15f56cb067661804b084cea86ff57.mp3"
+                      }
+                    ]
+                  }
+                ],
+                "gramarinfo": [
+                  { "tran": "", "type": "hdgr", "label": "oft N that" }
+                ],
+                "tran": "\u6697\u793a;\u793a\u610f",
+                "def":
+                  "A <b>suggestion</b> is something that a person says which implies that something is the case.",
+                "mean_id": "64946",
+                "posp": [{ "label": "N-COUNT" }]
+              }
+            ]
+          },
+          {
+            "type": "mean",
+            "entry_id": "67874",
+            "value": [
+              {
+                "mean_type": [
+                  {
+                    "info_type": "example",
+                    "info_id": "91919",
+                    "example": [
+                      {
+                        "example_id": "88374",
+                        "tts_size": "22.0",
+                        "tran":
+                          "\u6ca1\u6709\u4efb\u4f55\u8ff9\u8c61\u8868\u660e\u53cc\u65b9\u5c06\u4f1a\u8fbe\u6210\u4e00\u81f4\u3002",
+                        "ex":
+                          "There is no suggestion whatsoever that the two sides are any closer to agreeing...",
+                        "tts_mp3": "5/8/7/587893a6b8998bba18f00071198e6327.mp3"
+                      }
+                    ]
+                  },
+                  {
+                    "info_type": "example",
+                    "info_id": "91920",
+                    "example": [
+                      {
+                        "example_id": "88375",
+                        "tts_size": "24.0",
+                        "tran":
+                          "\u6ca1\u6709\u4efb\u4f55\u4f9d\u636e\u8868\u660e\u6709\u4efb\u4f55\u4e3b\u8981\u653f\u515a\u53c2\u4e0e\u5176\u4e2d\u3002",
+                        "ex":
+                          "There is absolutely no suggestion of any mainstream political party involvement.",
+                        "tts_mp3": "a/9/8/a981e4dbb4fa70fedf2ee8d4b6518e71.mp3"
+                      }
+                    ]
+                  }
+                ],
+                "gramarinfo": [
+                  {
+                    "tran": "",
+                    "type": "hdgr",
+                    "label": "usu with brd-neg, N that, N <l>of</l> n"
+                  }
+                ],
+                "tran": "\u8868\u660e;\u5f81\u5146;\u6839\u636e",
+                "def":
+                  "If there is no <b>suggestion that</b> something is the case, there is no reason to think that it is the case.",
+                "mean_id": "64947",
+                "posp": [{ "label": "N-SING" }]
+              }
+            ]
+          },
+          {
+            "type": "mean",
+            "entry_id": "67875",
+            "value": [
+              {
+                "mean_type": [
+                  {
+                    "info_type": "example",
+                    "info_id": "91921",
+                    "example": [
+                      {
+                        "example_id": "88376",
+                        "tts_size": "14.0",
+                        "tran":
+                          "\u7565\u5e26\u4e00\u70b9\u6d41\u884c\u7684\u53e4\u94dc\u8272",
+                        "ex": "...that fashionably faint suggestion of a tan.",
+                        "tts_mp3": "b/6/5/b65ad823e116e50a5800923a459f58f5.mp3"
+                      }
+                    ]
+                  },
+                  {
+                    "info_type": "example",
+                    "info_id": "91922",
+                    "example": [
+                      {
+                        "example_id": "88377",
+                        "tts_size": "20.0",
+                        "tran":
+                          "\u7ed3\u5b9e\u3001\u6ca1\u6709\u4e00\u70b9\u51f9\u9677\u7684\u9ad8\u5f39\u529b\u5e8a\u57ab",
+                        "ex":
+                          "...a firm, well-sprung mattress with not one suggestion of a sag.",
+                        "tts_mp3": "a/8/4/a84f38b3113e9c348aa160065adb4e9f.mp3"
+                      }
+                    ]
+                  }
+                ],
+                "gramarinfo": [
+                  {
+                    "tran": "",
+                    "type": "hdgr",
+                    "label": "usu sing, N <l>of</l> n"
+                  }
+                ],
+                "tran": "\u4e9b\u5fae;\u4e9b\u8bb8",
+                "def":
+                  "If there is a <b>suggestion of</b> something, there is a slight amount or sign of it.",
+                "mean_id": "64948",
+                "posp": [{ "label": "N-COUNT" }]
+              }
+            ]
+          },
+          {
+            "type": "mean",
+            "entry_id": "67876",
+            "value": [
+              {
+                "mean_type": [
+                  {
+                    "info_type": "example",
+                    "info_id": "91923",
+                    "example": [
+                      {
+                        "example_id": "88378",
+                        "tts_size": "12.0",
+                        "tran":
+                          "\u6697\u793a\u7684\u529b\u91cf\u662f\u65e0\u6bd4\u5f3a\u5927\u7684\u3002",
+                        "ex": "The power of suggestion is very strong.",
+                        "tts_mp3": "3/8/f/38f7e34992bec07bf7ac171c933501c6.mp3"
+                      }
+                    ]
+                  }
+                ],
+                "gramarinfo": [],
+                "tran": "\u8054\u60f3;\u6697\u793a",
+                "def":
+                  "<b>Suggestion</b> means giving people a particular idea by associating it with other ideas.",
+                "mean_id": "64949",
+                "posp": [{ "label": "N-UNCOUNT" }]
+              }
+            ]
+          }
+        ],
+        "word_name": "suggestion",
+        "word_id": "31187",
+        "word_emphasize": "sug|ges|tion",
+        "frequence": "3"
+      },
+      "lang": "1",
+      "oxford": {
+        "entry": [
+          {
+            "tag": "entry",
+            "name": "suggestion",
+            "data": [
+              {
+                "tag": "h-g",
+                "data": [
+                  { "tag": "p", "p": "n", "p_text": "noun" },
+                  {
+                    "tag": "n-g",
+                    "n": "1",
+                    "data": [
+                      {
+                        "tag": "cf",
+                        "before": [
+                          {
+                            "tag": "grs",
+                            "data": [
+                              {
+                                "gr": "c",
+                                "data": [
+                                  {
+                                    "text": "C",
+                                    "hoverText": "\u53ef\u6570\u540d\u8bcd"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "texts": ["~ (for/about/on sth)", "~ (that\u2026)"]
+                      },
+                      {
+                        "tag": "d",
+                        "enText":
+                          "an idea or a plan that you mention for sb else to think about",
+                        "chText": "\u5efa\u8bae\uff1b\u63d0\u8bae"
+                      },
+                      {
+                        "tag": "x",
+                        "enText": "Can I make a suggestion ?",
+                        "chText":
+                          "\u6211\u63d0\u4e2a\u5efa\u8bae\u597d\u5417\uff1f"
+                      },
+                      {
+                        "tag": "x",
+                        "enText": "Do you have any suggestions ?",
+                        "chText":
+                          "\u4f60\u6709\u4ec0\u4e48\u5efa\u8bae\u5417\uff1f"
+                      },
+                      {
+                        "tag": "x",
+                        "enText":
+                          "I'd like to hear your suggestions for ways of raising money.",
+                        "chText":
+                          "\u5173\u4e8e\u7b79\u96c6\u8d44\u91d1\u7684\u529e\u6cd5\uff0c\u6211\u60f3\u542c\u542c\u4f60\u7684\u610f\u89c1\u3002"
+                      },
+                      {
+                        "tag": "x",
+                        "enText":
+                          "Are there any suggestions about how best to tackle the problem?",
+                        "chText":
+                          "\u8fd9\u4e2a\u95ee\u9898\u6700\u597d\u600e\u6837\u89e3\u51b3\uff0c\u5927\u5bb6\u6709\u6ca1\u6709\u4ec0\u4e48\u5efa\u8bae\uff1f"
+                      },
+                      {
+                        "tag": "x",
+                        "enText":
+                          "We welcome any comments and suggestions on these proposals.",
+                        "chText":
+                          "\u5bf9\u4e8e\u8fd9\u4e9b\u65b9\u6848\u7684\u4efb\u4f55\u8bc4\u8bba\u548c\u5efa\u8bae\uff0c\u6211\u4eec\u4e00\u6982\u6b22\u8fce\u3002"
+                      },
+                      {
+                        "tag": "x",
+                        "enText":
+                          "He agreed with my suggestion that we should change the date.",
+                        "chText":
+                          "\u4ed6\u540c\u610f\u6211\u63d0\u51fa\u7684\u66f4\u6539\u65e5\u671f\u7684\u5efa\u8bae\u3002"
+                      },
+                      {
+                        "tag": "x",
+                        "enText":
+                          "We are open to suggestions (= willing to listen to ideas from other people) .",
+                        "chText":
+                          "\u6211\u4eec\u613f\u610f\u542c\u53d6\u5927\u5bb6\u7684\u5efa\u8bae\u3002"
+                      },
+                      {
+                        "tag": "x",
+                        "enText":
+                          "We need to get it there by four. Any suggestions? ",
+                        "chText":
+                          "\u6211\u4eec\u9700\u8981\u5728\u56db\u70b9\u4ee5\u524d\u628a\u4e1c\u897f\u9001\u8fc7\u53bb\u3002\u5927\u5bb6\u6709\u4ec0\u4e48\u529e\u6cd5\u5417\uff1f"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "n-g",
+                    "n": "2",
+                    "data": [
+                      {
+                        "tag": "cf",
+                        "before": [
+                          {
+                            "tag": "grs",
+                            "data": [
+                              {
+                                "gr": "u",
+                                "data": [
+                                  {
+                                    "text": "U",
+                                    "hoverText":
+                                      "\u4e0d\u53ef\u6570\u540d\u8bcd"
+                                  }
+                                ]
+                              },
+                              {
+                                "gr": "c",
+                                "data": [
+                                  {
+                                    "text": "C",
+                                    "hoverText": "\u53ef\u6570\u540d\u8bcd"
+                                  }
+                                ]
+                              },
+                              {
+                                "gr": "ususing",
+                                "data": [
+                                  {
+                                    "text": "usually sing.",
+                                    "hoverText":
+                                      "\u901a\u5e38\u7528\u5355\u6570\u5f62\u5f0f"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "texts": ["~ of/that"]
+                      },
+                      {
+                        "tag": "d",
+                        "enText":
+                          "a reason to think that sth, especially sth bad, is true",
+                        "chText":
+                          "\u4f7f\u4eba\u4f5c\uff08\u5c24\u5176\u662f\u4e0d\u597d\u7684\u4e8b\u60c5\u7684\uff09\u63a8\u6d4b\u7684\u7406\u7531"
+                      },
+                      {
+                        "tag": "xrs",
+                        "xt": "syn",
+                        "data": [
+                          {
+                            "tag": "xr",
+                            "data": [
+                              {
+                                "text": "hint",
+                                "hoverText": "",
+                                "canTrans": "1"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "x",
+                        "enText":
+                          "A spokesman dismissed any suggestion of a boardroom rift.",
+                        "chText":
+                          "\u53d1\u8a00\u4eba\u7684\u8bdd\u6253\u6d88\u4e86\u4eba\u4eec\u5173\u4e8e\u8463\u4e8b\u4f1a\u4e0d\u548c\u7684\u6240\u6709\u63a8\u6d4b\u3002"
+                      },
+                      {
+                        "tag": "x",
+                        "enText":
+                          "There was no suggestion that he was doing anything illegal.",
+                        "chText":
+                          "\u8bf4\u4ed6\u5728\u4ece\u4e8b\u975e\u6cd5\u6d3b\u52a8\u65e0\u4efb\u4f55\u6839\u636e\u3002"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "n-g",
+                    "n": "3",
+                    "data": [
+                      {
+                        "tag": "d",
+                        "before": [
+                          {
+                            "tag": "grs",
+                            "data": [
+                              {
+                                "gr": "c",
+                                "data": [
+                                  {
+                                    "text": "C",
+                                    "hoverText": "\u53ef\u6570\u540d\u8bcd"
+                                  }
+                                ]
+                              },
+                              {
+                                "gr": "ususing",
+                                "data": [
+                                  {
+                                    "text": "usually sing.",
+                                    "hoverText":
+                                      "\u901a\u5e38\u7528\u5355\u6570\u5f62\u5f0f"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "enText": "a slight amount or sign of sth",
+                        "chText":
+                          "\u5fae\u91cf\uff1b\u4e9b\u5fae\uff1b\u8ff9\u8c61"
+                      },
+                      {
+                        "tag": "xrs",
+                        "xt": "syn",
+                        "data": [
+                          {
+                            "tag": "xr",
+                            "data": [
+                              {
+                                "text": "trace",
+                                "hoverText": "",
+                                "canTrans": "1"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "x",
+                        "enText":
+                          "She looked at me with just a suggestion of a smile.",
+                        "chText":
+                          "\u5979\u770b\u7740\u6211\uff0c\u8138\u4e0a\u5e26\u7740\u4e00\u4e1d\u7b11\u610f\u3002"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "n-g",
+                    "n": "4",
+                    "data": [
+                      {
+                        "tag": "d",
+                        "before": [
+                          {
+                            "tag": "grs",
+                            "data": [
+                              {
+                                "gr": "u",
+                                "data": [
+                                  {
+                                    "text": "U",
+                                    "hoverText":
+                                      "\u4e0d\u53ef\u6570\u540d\u8bcd"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "enText":
+                          "putting an idea into people's minds by connecting it with other ideas",
+                        "chText": "\u6697\u793a\uff1b\u8054\u60f3"
+                      },
+                      {
+                        "tag": "x",
+                        "enText":
+                          "Most advertisements work through suggestion.",
+                        "chText":
+                          "\u591a\u6570\u5e7f\u544a\u90fd\u662f\u901a\u8fc7\u6697\u793a\u800c\u53d1\u6325\u4f5c\u7528\u3002"
+                      },
+                      {
+                        "tag": "x",
+                        "enText": "the power of suggestion",
+                        "chText": "\u6697\u793a\u529b"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "ids-g",
+                    "data": [
+                      {
+                        "tag": "id-g",
+                        "data": [
+                          {
+                            "tag": "id",
+                            "enText": "at/on sb's suggestion",
+                            "chText": ""
+                          },
+                          {
+                            "tag": "d",
+                            "enText": "because sb suggested it",
+                            "chText":
+                              "\u6839\u636e\u67d0\u4eba\u7684\u5efa\u8bae\uff1b\u5728\u67d0\u4eba\u7684\u63d0\u8bae\u4e0b"
+                          },
+                          {
+                            "tag": "x",
+                            "enText":
+                              "At his suggestion, I bought the more expensive printer.",
+                            "chText":
+                              "\u5728\u4ed6\u7684\u5efa\u8bae\u4e0b\uff0c\u6211\u4e70\u4e86\u90a3\u90e8\u6bd4\u8f83\u8d35\u7684\u6253\u5370\u673a\u3002"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "unbox": ""
+      }
+    },
+    "liju_result": {
+      "double":
+        "[[[[\"The\",\"w_0\",\"w_0,w_1,w_15,w_16,w_17\",0,\" \"],[\"dietitian\",\"w_1\",\"w_0,w_1,w_15,w_16,w_17\",0,\" \"],[\"was\",\"w_2\",\"w_2,w_31\",0,\" \"],[\"helpful\",\"w_3\",\"w_3,w_32,w_33,w_34\",0],[\",\",\"w_4\",\"w_4,w_28\",0,\" \"],[\"making\",\"w_5\",\"w_5,w_24\",0,\" \"],[\"suggestions\",\"w_6\",\"w_6,w_27\",1,\" \"],[\"as\",\"w_7\",\"w_7,w_18\",0,\" \"],[\"to\",\"w_8\",\"w_8,w_22\",0,\" \"],[\"how\",\"w_9\",\"w_9,w_19\",0,\" \"],[\"I\",\"w_10\",\"w_10,w_30\",0,\" \"],[\"could\",\"w_11\",\"w_11,w_18,w_19\",0,\" \"],[\"improve\",\"w_12\",\"w_12,w_20\",0,\" \"],[\"my\",\"w_13\",\"w_13,w_23\",0,\" \"],[\"diet\",\"w_14\",\"w_14,w_21\",0]],[[\"\\u8fd9\\u4f4d\",\"w_15\",\"w_0,w_1,w_15,w_16,w_17\",0],[\"\\u8425\\u517b\",\"w_16\",\"w_0,w_1,w_15,w_16,w_17\",0],[\"\\u5b66\\u5bb6\",\"w_17\",\"w_0,w_1,w_15,w_16,w_17\",0],[\"\\u5c31\",\"w_18\",\"w_11,w_18,w_19\",0],[\"\\u5982\\u4f55\",\"w_19\",\"w_11,w_18,w_19\",0],[\"\\u6539\\u5584\",\"w_20\",\"w_12,w_20\",0],[\"\\u996e\\u98df\",\"w_21\",\"w_14,w_21\",0],[\"\\u7ed9\",\"w_22\",\"w_8,w_22\",0],[\"\\u6211\",\"w_23\",\"w_13,w_23\",0],[\"\\u63d0\\u51fa\",\"w_24\",\"w_5,w_24\",0],[\"\\u4e86\",\"w_25\",\"\",0],[\"\\u4e9b\",\"w_26\",\"\",0],[\"\\u5efa\\u8bae\",\"w_27\",\"w_6,w_27\",0],[\"\\uff0c\",\"w_28\",\"w_4,w_28\",0],[\"\\u5bf9\",\"w_29\",\"\",0],[\"\\u6211\",\"w_30\",\"w_10,w_30\",0],[\"\\u5f88\",\"w_31\",\"w_2,w_31\",0],[\"\\u6709\",\"w_32\",\"w_3,w_32,w_33,w_34\",0],[\"\\u5e2e\\u52a9\",\"w_33\",\"w_3,w_32,w_33,w_34\",0],[\"\\u3002\",\"w_34\",\"w_3,w_32,w_33,w_34\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",61173],[[[\"We\",\"w_70\",\"w_70,w_88\",0,\" \"],[\"reject\",\"w_71\",\"w_71,w_90,w_91\",0,\" \"],[\"any\",\"w_72\",\"w_72,w_79,w_80\",0,\" \"],[\"suggestion\",\"w_73\",\"w_73,w_74,w_75,w_81,w_82\",1,\" \"],[\"that\",\"w_74\",\"w_73,w_74,w_75,w_81,w_82\",0,\" \"],[\"the\",\"w_75\",\"w_73,w_74,w_75,w_81,w_82\",0,\" \"],[\"law\",\"w_76\",\"w_76,w_83\",0,\" \"],[\"needs\",\"w_77\",\"w_77,w_84\",0,\" \"],[\"amending\",\"w_78\",\"w_78,w_85\",0]],[[\"\\u5bf9\\u4e8e\",\"w_79\",\"w_72,w_79,w_80\",0],[\"\\u4efb\\u4f55\",\"w_80\",\"w_72,w_79,w_80\",0],[\"\\u6697\\u793a\",\"w_81\",\"w_73,w_74,w_75,w_81,w_82\",0],[\"\\u8be5\",\"w_82\",\"w_73,w_74,w_75,w_81,w_82\",0],[\"\\u6cd5\\u5f8b\",\"w_83\",\"w_76,w_83\",0],[\"\\u9700\\u8981\",\"w_84\",\"w_77,w_84\",0],[\"\\u4fee\\u6539\",\"w_85\",\"w_78,w_85\",0],[\"\\u7684\",\"w_86\",\"\",0],[\"\\u89c2\\u70b9\",\"w_87\",\"\",0],[\"\\u6211\\u4eec\",\"w_88\",\"w_70,w_88\",0],[\"\\u90fd\",\"w_89\",\"\",0],[\"\\u62d2\\u7edd\",\"w_90\",\"w_71,w_90,w_91\",0],[\"\\u63a5\\u53d7\",\"w_91\",\"w_71,w_90,w_91\",0],[\"\\u3002\",\"w_92\",\"\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",61176],[[[\"There\",\"w_116\",\"w_116,w_117,w_118,w_130,w_131\",0,\" \"],[\"is\",\"w_117\",\"w_116,w_117,w_118,w_130,w_131\",0,\" \"],[\"no\",\"w_118\",\"w_116,w_117,w_118,w_130,w_131\",0,\" \"],[\"suggestion\",\"w_119\",\"w_119,w_132\",1,\" \"],[\"whatsoever\",\"w_120\",\"w_120,w_131\",0,\" \"],[\"that\",\"w_121\",\"w_121,w_133\",0,\" \"],[\"the\",\"w_122\",\"w_122\",0,\" \"],[\"two\",\"w_123\",\"w_123,w_124,w_134\",0,\" \"],[\"sides\",\"w_124\",\"w_123,w_124,w_134\",0,\" \"],[\"are\",\"w_125\",\"w_125,w_135\",0,\" \"],[\"any\",\"w_126\",\"w_126,w_131\",0,\" \"],[\"closer\",\"w_127\",\"w_127,w_136\",0,\" \"],[\"to\",\"w_128\",\"w_128\",0,\" \"],[\"agreeing\",\"w_129\",\"w_129,w_136,w_137\",0]],[[\"\\u6ca1\\u6709\",\"w_130\",\"w_116,w_117,w_118,w_130,w_131\",0],[\"\\u4efb\\u4f55\",\"w_131\",\"w_126,w_131\",0],[\"\\u8ff9\\u8c61\",\"w_132\",\"w_119,w_132\",0],[\"\\u8868\\u660e\",\"w_133\",\"w_121,w_133\",0],[\"\\u53cc\\u65b9\",\"w_134\",\"w_123,w_124,w_134\",0],[\"\\u5c06\\u4f1a\",\"w_135\",\"w_125,w_135\",0],[\"\\u8fbe\\u6210\",\"w_136\",\"w_129,w_136,w_137\",0],[\"\\u4e00\\u81f4\",\"w_137\",\"w_129,w_136,w_137\",0],[\"\\u3002\",\"w_138\",\"\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",61177],[[[\"The\",\"w_162\",\"w_162,w_171\",0,\" \"],[\"power\",\"w_163\",\"w_163,w_172\",0,\" \"],[\"of\",\"w_164\",\"w_164\",0,\" \"],[\"suggestion\",\"w_165\",\"w_165,w_170\",1,\" \"],[\"is\",\"w_166\",\"w_166,w_173\",0,\" \"],[\"very\",\"w_167\",\"w_167,w_174\",0,\" \"],[\"strong\",\"w_168\",\"w_168,w_175\",0],[\".\",\"w_169\",\"w_169,w_177\",0]],[[\"\\u6697\\u793a\",\"w_170\",\"w_165,w_170\",0],[\"\\u7684\",\"w_171\",\"w_162,w_171\",0],[\"\\u529b\\u91cf\",\"w_172\",\"w_163,w_172\",0],[\"\\u662f\",\"w_173\",\"w_166,w_173\",0],[\"\\u65e0\\u6bd4\",\"w_174\",\"w_167,w_174\",0],[\"\\u5f3a\\u5927\",\"w_175\",\"w_168,w_175\",0],[\"\\u7684\",\"w_176\",\"\",0],[\"\\u3002\",\"w_177\",\"w_169,w_177\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",61179],[[[\"Perhaps\",\"w_194\",\"w_194,w_206\",0,\" \"],[\"he\",\"w_195\",\"w_195,w_207\",0],[\"'d\",\"w_196\",\"w_196,w_208\",0,\" \"],[\"followed\",\"w_197\",\"w_197,w_209\",0,\" \"],[\"her\",\"w_198\",\"w_198,w_211\",0,\" \"],[\"suggestion\",\"w_199\",\"w_199,w_212\",1,\" \"],[\"of\",\"w_200\",\"w_200\",0,\" \"],[\"a\",\"w_201\",\"w_201,w_202,w_215\",0,\" \"],[\"stroll\",\"w_202\",\"w_201,w_202,w_215\",0,\" \"],[\"to\",\"w_203\",\"w_203,w_213\",0,\" \"],[\"the\",\"w_204\",\"w_204\",0,\" \"],[\"river\",\"w_205\",\"w_205,w_214\",0]],[[\"\\u4e5f\\u8bb8\",\"w_206\",\"w_194,w_206\",0],[\"\\u4ed6\",\"w_207\",\"w_195,w_207\",0],[\"\\u5df2\\u7ecf\",\"w_208\",\"w_196,w_208\",0],[\"\\u542c\\u4ece\",\"w_209\",\"w_197,w_209\",0],[\"\\u4e86\",\"w_210\",\"\",0],[\"\\u5979\\u7684\",\"w_211\",\"w_198,w_211\",0],[\"\\u5efa\\u8bae\",\"w_212\",\"w_199,w_212\",0],[\"\\u53bb\",\"w_213\",\"w_203,w_213\",0],[\"\\u6cb3\\u8fb9\",\"w_214\",\"w_205,w_214\",0],[\"\\u6563\\u6b65\",\"w_215\",\"w_201,w_202,w_215\",0],[\"\\u4e86\",\"w_216\",\"\",0],[\"\\u3002\",\"w_217\",\"\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",61174],[[[\"I\",\"w_242\",\"w_242,w_258\",0,\" \"],[\"have\",\"w_243\",\"w_243,w_259\",0,\" \"],[\"lots\",\"w_244\",\"w_244,w_260\",0,\" \"],[\"of\",\"w_245\",\"w_245\",0,\" \"],[\"suggestions\",\"w_246\",\"w_246,w_261\",1,\" \"],[\"for\",\"w_247\",\"w_247,w_253\",0,\" \"],[\"the\",\"w_248\",\"w_248\",0,\" \"],[\"park\",\"w_249\",\"w_249,w_254\",0],[\"'s\",\"w_250\",\"w_250,w_256\",0,\" \"],[\"future\",\"w_251\",\"w_251,w_255\",0],[\".\",\"w_252\",\"w_252,w_262\",0]],[[\"\\u5bf9\\u4e8e\",\"w_253\",\"w_247,w_253\",0],[\"\\u516c\\u56ed\",\"w_254\",\"w_249,w_254\",0],[\"\\u672a\\u6765\",\"w_255\",\"w_251,w_255\",0],[\"\\u7684\",\"w_256\",\"w_250,w_256\",0],[\"\\u89c4\\u5212\",\"w_257\",\"\",0],[\"\\u6211\",\"w_258\",\"w_242,w_258\",0],[\"\\u6709\",\"w_259\",\"w_243,w_259\",0],[\"\\u5f88\\u591a\",\"w_260\",\"w_244,w_260\",0],[\"\\u63d0\\u8bae\",\"w_261\",\"w_246,w_261\",0],[\"\\u3002\",\"w_262\",\"w_252,w_262\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",61175],[[[\"There\",\"w_284\",\"w_284,w_285,w_286,w_287,w_296,w_297\",0,\" \"],[\"is\",\"w_285\",\"w_284,w_285,w_286,w_287,w_296,w_297\",0,\" \"],[\"absolutely\",\"w_286\",\"w_284,w_285,w_286,w_287,w_296,w_297\",0,\" \"],[\"no\",\"w_287\",\"w_284,w_285,w_286,w_287,w_296,w_297\",0,\" \"],[\"suggestion\",\"w_288\",\"w_288,w_298,w_299\",1,\" \"],[\"of\",\"w_289\",\"w_289\",0,\" \"],[\"any\",\"w_290\",\"w_290,w_301\",0,\" \"],[\"mainstream\",\"w_291\",\"w_291,w_302\",0,\" \"],[\"political\",\"w_292\",\"w_292,w_293,w_303\",0,\" \"],[\"party\",\"w_293\",\"w_292,w_293,w_303\",0,\" \"],[\"involvement\",\"w_294\",\"w_294,w_304,w_305\",0],[\".\",\"w_295\",\"w_295,w_306\",0]],[[\"\\u6ca1\\u6709\",\"w_296\",\"w_284,w_285,w_286,w_287,w_296,w_297\",0],[\"\\u4efb\\u4f55\",\"w_297\",\"w_284,w_285,w_286,w_287,w_296,w_297\",0],[\"\\u4f9d\\u636e\",\"w_298\",\"w_288,w_298,w_299\",0],[\"\\u8868\\u660e\",\"w_299\",\"w_288,w_298,w_299\",0],[\"\\u6709\",\"w_300\",\"\",0],[\"\\u4efb\\u4f55\",\"w_301\",\"w_290,w_301\",0],[\"\\u4e3b\\u8981\",\"w_302\",\"w_291,w_302\",0],[\"\\u653f\\u515a\",\"w_303\",\"w_292,w_293,w_303\",0],[\"\\u53c2\\u4e0e\",\"w_304\",\"w_294,w_304,w_305\",0],[\"\\u5176\\u4e2d\",\"w_305\",\"w_294,w_304,w_305\",0],[\"\\u3002\",\"w_306\",\"w_295,w_306\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",61178],[[[\"I\",\"w_330\",\"w_330,w_338\",0,\" \"],[\"integrated\",\"w_331\",\"w_331,w_347\",0,\" \"],[\"your\",\"w_332\",\"w_332,w_339,w_340\",0,\" \"],[\"suggestion\",\"w_333\",\"w_333,w_342\",1,\" \"],[\"with\",\"w_334\",\"w_334,w_343\",0,\" \"],[\"my\",\"w_335\",\"w_335,w_344\",0,\" \"],[\"plan\",\"w_336\",\"w_336,w_346\",0],[\".\",\"w_337\",\"w_337,w_350\",0]],[[\"\\u6211\",\"w_338\",\"w_330,w_338\",0],[\"\\u628a\",\"w_339\",\"w_332,w_339,w_340\",0],[\"\\u4f60\",\"w_340\",\"w_332,w_339,w_340\",0],[\"\\u7684\",\"w_341\",\"\",0],[\"\\u5efa\\u8bae\",\"w_342\",\"w_333,w_342\",0],[\"\\u548c\",\"w_343\",\"w_334,w_343\",0],[\"\\u6211\",\"w_344\",\"w_335,w_344\",0],[\"\\u7684\",\"w_345\",\"\",0],[\"\\u8ba1\\u5212\",\"w_346\",\"w_336,w_346\",0],[\"\\u7ed3\\u5408\",\"w_347\",\"w_331,w_347\",0],[\"\\u5728\",\"w_348\",\"\",0],[\"\\u4e00\\u8d77\",\"w_349\",\"\",0],[\"\\u3002\",\"w_350\",\"w_337,w_350\",0]],\"\\u300a\\u6c49\\u82f1\\u5927\\u8bcd\\u5178\\u300b\",86803],[[[\"It\",\"w_372\",\"w_372,w_377\",0],[\"'s\",\"w_373\",\"w_373,w_374,w_378\",0,\" \"],[\"just\",\"w_374\",\"w_373,w_374,w_378\",0,\" \"],[\"a\",\"w_375\",\"w_375,w_379\",0,\" \"],[\"suggestion\",\"w_376\",\"w_376,w_380,w_381\",1]],[[\"\\u8fd9\",\"w_377\",\"w_372,w_377\",0],[\"\\u53ea\\u662f\",\"w_378\",\"w_373,w_374,w_378\",0],[\"\\u4e2a\",\"w_379\",\"w_375,w_379\",0],[\"\\u5efa\\u8bae\",\"w_380\",\"w_376,w_380,w_381\",0],[\"\\u3002\",\"w_381\",\"w_376,w_380,w_381\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",33062],[[[\"We\",\"w_392\",\"w_392,w_404\",0,\" \"],[\"trust\",\"w_393\",\"w_393,w_405\",0,\" \"],[\"that\",\"w_394\",\"w_394\",0,\" \"],[\"he\",\"w_395\",\"w_395,w_406\",0,\" \"],[\"and\",\"w_396\",\"w_396,w_407\",0,\" \"],[\"his\",\"w_397\",\"w_397,w_408\",0,\" \"],[\"department\",\"w_398\",\"w_398,w_409\",0,\" \"],[\"are\",\"w_399\",\"w_399,w_410\",0,\" \"],[\"considering\",\"w_400\",\"w_400,w_411\",0,\" \"],[\"our\",\"w_401\",\"w_401,w_412\",0,\" \"],[\"suggestion\",\"w_402\",\"w_402,w_414\",1],[\".\",\"w_403\",\"w_403,w_415\",0]],[[\"\\u6211\\u4eec\",\"w_404\",\"w_392,w_404\",0],[\"\\u4f30\\u8ba1\",\"w_405\",\"w_393,w_405\",0],[\"\\u4ed6\",\"w_406\",\"w_395,w_406\",0],[\"\\u548c\",\"w_407\",\"w_396,w_407\",0],[\"\\u4ed6\\u7684\",\"w_408\",\"w_397,w_408\",0],[\"\\u90e8\\u95e8\",\"w_409\",\"w_398,w_409\",0],[\"\\u6b63\\u5728\",\"w_410\",\"w_399,w_410\",0],[\"\\u8003\\u8651\",\"w_411\",\"w_400,w_411\",0],[\"\\u6211\\u4eec\",\"w_412\",\"w_401,w_412\",0],[\"\\u7684\",\"w_413\",\"\",0],[\"\\u5efa\\u8bae\",\"w_414\",\"w_402,w_414\",0],[\"\\u3002\",\"w_415\",\"w_403,w_415\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",66020],[[[\"Might\",\"w_440\",\"w_440,w_447\",0,\" \"],[\"I\",\"w_441\",\"w_441,w_446\",0,\" \"],[\"make\",\"w_442\",\"w_442,w_448\",0,\" \"],[\"a\",\"w_443\",\"w_443,w_449\",0,\" \"],[\"suggestion\",\"w_444\",\"w_444,w_450\",1],[\"?\",\"w_445\",\"w_445,w_451\",0]],[[\"\\u6211\",\"w_446\",\"w_441,w_446\",0],[\"\\u80fd\\u5426\",\"w_447\",\"w_440,w_447\",0],[\"\\u63d0\",\"w_448\",\"w_442,w_448\",0],[\"\\u4e2a\",\"w_449\",\"w_443,w_449\",0],[\"\\u5efa\\u8bae\",\"w_450\",\"w_444,w_450\",0],[\"\\uff1f\",\"w_451\",\"w_445,w_451\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",38337],[[[\"He\",\"w_464\",\"w_464,w_471\",0,\" \"],[\"agreed\",\"w_465\",\"w_465,w_466,w_475\",0,\" \"],[\"to\",\"w_466\",\"w_465,w_466,w_475\",0,\" \"],[\"her\",\"w_467\",\"w_467,w_477\",0,\" \"],[\"suggestion\",\"w_468\",\"w_468,w_478\",1,\" \"],[\"begrudgingly\",\"w_469\",\"w_469,w_472,w_473,w_474\",0],[\".\",\"w_470\",\"w_470,w_479\",0]],[[\"\\u4ed6\",\"w_471\",\"w_464,w_471\",0],[\"\\u4e0d\",\"w_472\",\"w_469,w_472,w_473,w_474\",0],[\"\\u60c5\\u613f\",\"w_473\",\"w_469,w_472,w_473,w_474\",0],[\"\\u5730\",\"w_474\",\"w_469,w_472,w_473,w_474\",0],[\"\\u540c\\u610f\",\"w_475\",\"w_465,w_466,w_475\",0],[\"\\u4e86\",\"w_476\",\"\",0],[\"\\u5979\\u7684\",\"w_477\",\"w_467,w_477\",0],[\"\\u5efa\\u8bae\",\"w_478\",\"w_468,w_478\",0],[\"\\u3002\",\"w_479\",\"w_470,w_479\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",5601],[[[\"His\",\"w_496\",\"w_496,w_501\",0,\" \"],[\"suggestion\",\"w_497\",\"w_497,w_502\",1,\" \"],[\"is\",\"w_498\",\"w_498,w_505\",0,\" \"],[\"workable\",\"w_499\",\"w_499,w_506,w_507,w_508\",0],[\".\",\"w_500\",\"w_500,w_510\",0]],[[\"\\u4ed6\",\"w_501\",\"w_496,w_501\",0],[\"\\u63d0\\u51fa\",\"w_502\",\"w_497,w_502\",0],[\"\\u7684\",\"w_503\",\"\",0],[\"\\u529e\\u6cd5\",\"w_504\",\"\",0],[\"\\u662f\",\"w_505\",\"w_498,w_505\",0],[\"\\u884c\",\"w_506\",\"w_499,w_506,w_507,w_508\",0],[\"\\u5f97\",\"w_507\",\"w_499,w_506,w_507,w_508\",0],[\"\\u901a\",\"w_508\",\"w_499,w_506,w_507,w_508\",0],[\"\\u7684\",\"w_509\",\"\",0],[\"\\u3002\",\"w_510\",\"w_500,w_510\",0]],\"\\u300a\\u6c49\\u82f1\\u5927\\u8bcd\\u5178\\u300b\",87868],[[[\"This\",\"w_526\",\"w_526,w_531\",0,\" \"],[\"suggestion\",\"w_527\",\"w_527,w_532,w_533\",1,\" \"],[\"dumbfounded\",\"w_528\",\"w_528,w_534\",0,\" \"],[\"Joe\",\"w_529\",\"w_529,w_535\",0],[\".\",\"w_530\",\"w_530,w_540\",0]],[[\"\\u8fd9\",\"w_531\",\"w_526,w_531\",0],[\"\\u9879\",\"w_532\",\"w_527,w_532,w_533\",0],[\"\\u5efa\\u8bae\",\"w_533\",\"w_527,w_532,w_533\",0],[\"\\u4f7f\",\"w_534\",\"w_528,w_534\",0],[\"\\u4e54\",\"w_535\",\"w_529,w_535\",0],[\"\\u76ee\",\"w_536\",\"\",0],[\"\\u77aa\",\"w_537\",\"\",0],[\"\\u53e3\",\"w_538\",\"\",0],[\"\\u5446\",\"w_539\",\"\",0],[\"\\u3002\",\"w_540\",\"w_530,w_540\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",18843],[[[\"There\",\"w_556\",\"w_556,w_567\",0],[\"'s\",\"w_557\",\"w_557\",0,\" \"],[\"no\",\"w_558\",\"w_558,w_567,w_568\",0,\" \"],[\"reason\",\"w_559\",\"w_559,w_560,w_569\",0,\" \"],[\"whatsoever\",\"w_560\",\"w_559,w_560,w_569\",0,\" \"],[\"to\",\"w_561\",\"w_561\",0,\" \"],[\"turn\",\"w_562\",\"w_562,w_563,w_570\",0,\" \"],[\"down\",\"w_563\",\"w_562,w_563,w_570\",0,\" \"],[\"this\",\"w_564\",\"w_564,w_571\",0,\" \"],[\"suggestion\",\"w_565\",\"w_565,w_572\",1],[\".\",\"w_566\",\"w_566,w_573\",0]],[[\"\\u6ca1\\u6709\",\"w_567\",\"w_558,w_567,w_568\",0],[\"\\u4efb\\u4f55\",\"w_568\",\"w_558,w_567,w_568\",0],[\"\\u7406\\u7531\",\"w_569\",\"w_559,w_560,w_569\",0],[\"\\u62d2\\u7edd\",\"w_570\",\"w_562,w_563,w_570\",0],[\"\\u8fd9\\u4e2a\",\"w_571\",\"w_564,w_571\",0],[\"\\u5efa\\u8bae\",\"w_572\",\"w_565,w_572\",0],[\"\\u3002\",\"w_573\",\"w_566,w_573\",0]],\"\\u300a\\u6c49\\u82f1\\u5927\\u8bcd\\u5178\\u300b\",73707],[[[\"This\",\"w_592\",\"w_592,w_601\",0,\" \"],[\"suggestion\",\"w_593\",\"w_593,w_602\",1,\" \"],[\"will\",\"w_594\",\"w_594,w_595,w_603\",0,\" \"],[\"certainly\",\"w_595\",\"w_594,w_595,w_603\",0,\" \"],[\"lead\",\"w_596\",\"w_596,w_604\",0,\" \"],[\"to\",\"w_597\",\"w_597\",0,\" \"],[\"an\",\"w_598\",\"w_598,w_605,w_606\",0,\" \"],[\"argument\",\"w_599\",\"w_599,w_607\",0],[\".\",\"w_600\",\"w_600,w_608\",0]],[[\"\\u8fd9\\u4e2a\",\"w_601\",\"w_592,w_601\",0],[\"\\u5efa\\u8bae\",\"w_602\",\"w_593,w_602\",0],[\"\\u5fc5\\u5c06\",\"w_603\",\"w_594,w_595,w_603\",0],[\"\\u5f15\\u8d77\",\"w_604\",\"w_596,w_604\",0],[\"\\u4e00\",\"w_605\",\"w_598,w_605,w_606\",0],[\"\\u573a\",\"w_606\",\"w_598,w_605,w_606\",0],[\"\\u4e89\\u8bba\",\"w_607\",\"w_599,w_607\",0],[\"\\u3002\",\"w_608\",\"w_600,w_608\",0]],\"\\u300a\\u6c49\\u82f1\\u5927\\u8bcd\\u5178\\u300b\",80225],[[[\"I\",\"w_626\",\"w_626,w_642\",0,\" \"],[\"made\",\"w_627\",\"w_627,w_643,w_644\",0,\" \"],[\"the\",\"w_628\",\"w_628\",0,\" \"],[\"then\",\"w_629\",\"w_629,w_645\",0,\" \"],[\"heretical\",\"w_630\",\"w_630,w_646,w_647\",0,\" \"],[\"suggestion\",\"w_631\",\"w_631,w_651\",1,\" \"],[\"that\",\"w_632\",\"w_632,w_653\",0,\" \"],[\"it\",\"w_633\",\"w_633,w_647\",0,\" \"],[\"might\",\"w_634\",\"w_634,w_635,w_657\",0,\" \"],[\"be\",\"w_635\",\"w_634,w_635,w_657\",0,\" \"],[\"cheaper\",\"w_636\",\"w_636,w_658,w_659\",0,\" \"],[\"to\",\"w_637\",\"w_637\",0,\" \"],[\"design\",\"w_638\",\"w_638,w_654\",0,\" \"],[\"new\",\"w_639\",\"w_639,w_655\",0,\" \"],[\"machines\",\"w_640\",\"w_640,w_656\",0],[\".\",\"w_641\",\"w_641,w_660\",0]],[[\"\\u6211\",\"w_642\",\"w_626,w_642\",0],[\"\\u63d0\\u51fa\",\"w_643\",\"w_627,w_643,w_644\",0],[\"\\u4e86\",\"w_644\",\"w_627,w_643,w_644\",0],[\"\\u5f53\\u65f6\",\"w_645\",\"w_629,w_645\",0],[\"\\u88ab\",\"w_646\",\"w_630,w_646,w_647\",0],[\"\\u8ba4\\u4e3a\",\"w_647\",\"w_633,w_647\",0],[\"\\u662f\",\"w_648\",\"\",0],[\"\\u65c1\\u95e8\\u5de6\\u9053\",\"w_649\",\"\",0],[\"\\u7684\",\"w_650\",\"\",0],[\"\\u5efa\\u8bae\",\"w_651\",\"w_631,w_651\",0],[\"\\uff0c\",\"w_652\",\"\",0],[\"\\u8bf4\",\"w_653\",\"w_632,w_653\",0],[\"\\u8bbe\\u8ba1\",\"w_654\",\"w_638,w_654\",0],[\"\\u65b0\",\"w_655\",\"w_639,w_655\",0],[\"\\u673a\\u5668\",\"w_656\",\"w_640,w_656\",0],[\"\\u53ef\\u80fd\",\"w_657\",\"w_634,w_635,w_657\",0],[\"\\u66f4\",\"w_658\",\"w_636,w_658,w_659\",0],[\"\\u7701\\u94b1\",\"w_659\",\"w_636,w_658,w_659\",0],[\"\\u3002\",\"w_660\",\"w_641,w_660\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",28859],[[[\"Let\",\"w_696\",\"w_696,w_697,w_703,w_704\",0],[\"'s\",\"w_697\",\"w_696,w_697,w_703,w_704\",0,\" \"],[\"consider\",\"w_698\",\"w_698,w_705\",0,\" \"],[\"briefly\",\"w_699\",\"w_699,w_706\",0,\" \"],[\"his\",\"w_700\",\"w_700,w_707\",0,\" \"],[\"suggestion\",\"w_701\",\"w_701,w_708\",1],[\".\",\"w_702\",\"w_702,w_709\",0]],[[\"\\u8ba9\",\"w_703\",\"w_696,w_697,w_703,w_704\",0],[\"\\u6211\\u4eec\",\"w_704\",\"w_696,w_697,w_703,w_704\",0],[\"\\u8003\\u8651\",\"w_705\",\"w_698,w_705\",0],[\"\\u4e00\\u4e0b\",\"w_706\",\"w_699,w_706\",0],[\"\\u4ed6\\u7684\",\"w_707\",\"w_700,w_707\",0],[\"\\u5efa\\u8bae\",\"w_708\",\"w_701,w_708\",0],[\"\\u3002\",\"w_709\",\"w_702,w_709\",0]],\"\\u300a\\u6c49\\u82f1\\u5927\\u8bcd\\u5178\\u300b\",87106],[[[\"Daniels\",\"w_724\",\"w_724,w_738\",0,\" \"],[\"and\",\"w_725\",\"w_725,w_739\",0,\" \"],[\"Franklin\",\"w_726\",\"w_726,w_740\",0,\" \"],[\"concurred\",\"w_727\",\"w_727,w_741,w_742\",0,\" \"],[\"in\",\"w_728\",\"w_728\",0,\" \"],[\"an\",\"w_729\",\"w_729,w_743,w_744\",0,\" \"],[\"investigator\",\"w_730\",\"w_730,w_745,w_746\",0],[\"'s\",\"w_731\",\"w_731,w_747\",0,\" \"],[\"suggestion\",\"w_732\",\"w_732,w_748\",1,\" \"],[\"that\",\"w_733\",\"w_733,w_734,w_749,w_750\",0,\" \"],[\"the\",\"w_734\",\"w_733,w_734,w_749,w_750\",0,\" \"],[\"police\",\"w_735\",\"w_735,w_751\",0,\" \"],[\"be\",\"w_736\",\"w_736,w_752\",0,\" \"],[\"commended\",\"w_737\",\"w_737,w_753,w_754\",0]],[[\"\\u4e39\\u5c3c\\u5c14\\u65af\",\"w_738\",\"w_724,w_738\",0],[\"\\u548c\",\"w_739\",\"w_725,w_739\",0],[\"\\u5bcc\\u5170\\u514b\\u6797\",\"w_740\",\"w_726,w_740\",0],[\"\\u4e00\\u81f4\",\"w_741\",\"w_727,w_741,w_742\",0],[\"\\u540c\\u610f\",\"w_742\",\"w_727,w_741,w_742\",0],[\"\\u4e00\",\"w_743\",\"w_729,w_743,w_744\",0],[\"\\u4f4d\",\"w_744\",\"w_729,w_743,w_744\",0],[\"\\u8c03\\u67e5\",\"w_745\",\"w_730,w_745,w_746\",0],[\"\\u4eba\\u5458\",\"w_746\",\"w_730,w_745,w_746\",0],[\"\\u7684\",\"w_747\",\"w_731,w_747\",0],[\"\\u5efa\\u8bae\",\"w_748\",\"w_732,w_748\",0],[\"\\uff0c\",\"w_749\",\"w_733,w_734,w_749,w_750\",0],[\"\\u5373\",\"w_750\",\"w_733,w_734,w_749,w_750\",0],[\"\\u8b66\\u65b9\",\"w_751\",\"w_735,w_751\",0],[\"\\u5e94\\u8be5\",\"w_752\",\"w_736,w_752\",0],[\"\\u53d7\\u5230\",\"w_753\",\"w_737,w_753,w_754\",0],[\"\\u8d5e\\u626c\",\"w_754\",\"w_737,w_753,w_754\",0],[\"\\u3002\",\"w_755\",\"\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",12231],[[[\"The\",\"w_788\",\"w_788,w_797\",0,\" \"],[\"suggestion\",\"w_789\",\"w_789,w_798,w_799\",1,\" \"],[\"was\",\"w_790\",\"w_790,w_800\",0,\" \"],[\"voted\",\"w_791\",\"w_791,w_792,w_802,w_803\",0,\" \"],[\"down\",\"w_792\",\"w_791,w_792,w_802,w_803\",0,\" \"],[\"by\",\"w_793\",\"w_793,w_804\",0,\" \"],[\"large\",\"w_794\",\"w_794,w_795,w_801\",0,\" \"],[\"majority\",\"w_795\",\"w_794,w_795,w_801\",0],[\".\",\"w_796\",\"w_796,w_805\",0]],[[\"\\u8fd9\",\"w_797\",\"w_788,w_797\",0],[\"\\u9879\",\"w_798\",\"w_789,w_798,w_799\",0],[\"\\u8bae\\u6848\",\"w_799\",\"w_789,w_798,w_799\",0],[\"\\u88ab\",\"w_800\",\"w_790,w_800\",0],[\"\\u5927\\u591a\\u6570\",\"w_801\",\"w_794,w_795,w_801\",0],[\"\\u7968\",\"w_802\",\"w_791,w_792,w_802,w_803\",0],[\"\\u5426\\u51b3\",\"w_803\",\"w_791,w_792,w_802,w_803\",0],[\"\\u4e86\",\"w_804\",\"w_793,w_804\",0],[\"\\u3002\",\"w_805\",\"w_796,w_805\",0]],\"\\u300a\\u6c49\\u82f1\\u5927\\u8bcd\\u5178\\u300b\",76807],[[[\"I\",\"w_824\",\"w_824,w_844\",0,\" \"],[\"will\",\"w_825\",\"w_825,w_845\",0,\" \"],[\"take\",\"w_826\",\"w_826,w_851\",0,\" \"],[\"the\",\"w_827\",\"w_827,w_846\",0,\" \"],[\"suggestion\",\"w_828\",\"w_828,w_841,w_842\",1,\" \"],[\"under\",\"w_829\",\"w_829,w_839\",0,\" \"],[\"advisement\",\"w_830\",\"w_830,w_846,w_847,w_848,w_849,w_850,w_851\",0],[\",\",\"w_831\",\"w_831,w_843\",0,\" \"],[\"and\",\"w_832\",\"w_832,w_852\",0,\" \"],[\"refer\",\"w_833\",\"w_833,w_853\",0,\" \"],[\"it\",\"w_834\",\"w_834,w_840\",0,\" \"],[\"to\",\"w_835\",\"w_835,w_854\",0,\" \"],[\"the\",\"w_836\",\"w_836,w_837,w_855,w_856\",0,\" \"],[\"board\",\"w_837\",\"w_836,w_837,w_855,w_856\",0],[\".\",\"w_838\",\"w_838,w_858\",0]],[[\"\\u5bf9\\u4e8e\",\"w_839\",\"w_829,w_839\",0],[\"\\u8fd9\",\"w_840\",\"w_834,w_840\",0],[\"\\u9879\",\"w_841\",\"w_828,w_841,w_842\",0],[\"\\u5efa\\u8bae\",\"w_842\",\"w_828,w_841,w_842\",0],[\"\\uff0c\",\"w_843\",\"w_831,w_843\",0],[\"\\u6211\",\"w_844\",\"w_824,w_844\",0],[\"\\u5c06\",\"w_845\",\"w_825,w_845\",0],[\"\\u54a8\\u8be2\",\"w_846\",\"w_830,w_846,w_847,w_848,w_849,w_850,w_851\",0],[\"\\u4e13\\u5bb6\",\"w_847\",\"w_830,w_846,w_847,w_848,w_849,w_850,w_851\",0],[\"\\u610f\\u89c1\",\"w_848\",\"w_830,w_846,w_847,w_848,w_849,w_850,w_851\",0],[\"\\u4f5c\",\"w_849\",\"w_830,w_846,w_847,w_848,w_849,w_850,w_851\",0],[\"\\u5468\\u5bc6\",\"w_850\",\"w_830,w_846,w_847,w_848,w_849,w_850,w_851\",0],[\"\\u8003\\u8651\",\"w_851\",\"w_830,w_846,w_847,w_848,w_849,w_850,w_851\",0],[\"\\u5e76\\u4e14\",\"w_852\",\"w_832,w_852\",0],[\"\\u63d0\\u4ea4\",\"w_853\",\"w_833,w_853\",0],[\"\\u7ed9\",\"w_854\",\"w_835,w_854\",0],[\"\\u8463\\u4e8b\",\"w_855\",\"w_836,w_837,w_855,w_856\",0],[\"\\u4f1a\",\"w_856\",\"w_836,w_837,w_855,w_856\",0],[\"\\u5904\\u7406\",\"w_857\",\"\",0],[\"\\u3002\",\"w_858\",\"w_838,w_858\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",1766],[[[\"Wolfe\",\"w_894\",\"w_894,w_895,w_899,w_900\",0,\" \"],[\"waved\",\"w_895\",\"w_894,w_895,w_899,w_900\",0,\" \"],[\"my\",\"w_896\",\"w_896,w_901\",0,\" \"],[\"suggestion\",\"w_897\",\"w_897,w_903\",1,\" \"],[\"aside\",\"w_898\",\"w_898,w_904\",0]],[[\"\\u6c83\\u5c14\\u592b\",\"w_899\",\"w_894,w_895,w_899,w_900\",0],[\"\\u5bf9\",\"w_900\",\"w_894,w_895,w_899,w_900\",0],[\"\\u6211\",\"w_901\",\"w_896,w_901\",0],[\"\\u7684\",\"w_902\",\"\",0],[\"\\u5efa\\u8bae\",\"w_903\",\"w_897,w_903\",0],[\"\\u7f6e\\u82e5\\u7f54\\u95fb\",\"w_904\",\"w_898,w_904\",0],[\"\\u3002\",\"w_905\",\"\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",69631],[[[\"There\",\"w_918\",\"w_918,w_930\",0,\" \"],[\"is\",\"w_919\",\"w_919\",0,\" \"],[\"no\",\"w_920\",\"w_920,w_930\",0,\" \"],[\"suggestion\",\"w_921\",\"w_921,w_931\",1,\" \"],[\"that\",\"w_922\",\"w_922,w_932\",0,\" \"],[\"clients\",\"w_923\",\"w_923,w_933,w_934\",0,\" \"],[\"have\",\"w_924\",\"w_924,w_925,w_936\",0,\" \"],[\"been\",\"w_925\",\"w_924,w_925,w_936\",0,\" \"],[\"sold\",\"w_926\",\"w_926,w_935\",0,\" \"],[\"inappropriate\",\"w_927\",\"w_927,w_937,w_938\",0,\" \"],[\"policies\",\"w_928\",\"w_928,w_940\",0],[\".\",\"w_929\",\"w_929,w_941\",0]],[[\"\\u65e0\",\"w_930\",\"w_920,w_930\",0],[\"\\u8ff9\\u8c61\",\"w_931\",\"w_921,w_931\",0],[\"\\u8868\\u660e\",\"w_932\",\"w_922,w_932\",0],[\"\\u5411\",\"w_933\",\"w_923,w_933,w_934\",0],[\"\\u5ba2\\u6237\",\"w_934\",\"w_923,w_933,w_934\",0],[\"\\u552e\\u51fa\",\"w_935\",\"w_926,w_935\",0],[\"\\u4e86\",\"w_936\",\"w_924,w_925,w_936\",0],[\"\\u4e0d\",\"w_937\",\"w_927,w_937,w_938\",0],[\"\\u9002\\u7528\",\"w_938\",\"w_927,w_937,w_938\",0],[\"\\u7684\",\"w_939\",\"\",0],[\"\\u4fdd\\u9669\",\"w_940\",\"w_928,w_940\",0],[\"\\u3002\",\"w_941\",\"w_929,w_941\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",30969],[[[\"There\",\"w_966\",\"w_966,w_967,w_968,w_979,w_980\",0,\" \"],[\"has\",\"w_967\",\"w_966,w_967,w_968,w_979,w_980\",0,\" \"],[\"also\",\"w_968\",\"w_966,w_967,w_968,w_979,w_980\",0,\" \"],[\"been\",\"w_969\",\"w_969,w_981\",0,\" \"],[\"a\",\"w_970\",\"w_970,w_980\",0,\" \"],[\"suggestion\",\"w_971\",\"w_971,w_972,w_982\",1,\" \"],[\"that\",\"w_972\",\"w_971,w_972,w_982\",0,\" \"],[\"the\",\"w_973\",\"w_973,w_984\",0,\" \"],[\"forces\",\"w_974\",\"w_974,w_986\",0,\" \"],[\"in\",\"w_975\",\"w_975\",0,\" \"],[\"Lebanon\",\"w_976\",\"w_976,w_983\",0,\" \"],[\"should\",\"w_977\",\"w_977,w_987\",0,\" \"],[\"disarm\",\"w_978\",\"w_978,w_985\",0]],[[\"\\u4e5f\",\"w_979\",\"w_966,w_967,w_968,w_979,w_980\",0],[\"\\u6709\",\"w_980\",\"w_970,w_980\",0],[\"\\u4eba\",\"w_981\",\"w_969,w_981\",0],[\"\\u5efa\\u8bae\",\"w_982\",\"w_971,w_972,w_982\",0],[\"\\u9ece\\u5df4\\u5ae9\",\"w_983\",\"w_976,w_983\",0],[\"\\u7684\",\"w_984\",\"w_973,w_984\",0],[\"\\u6b66\\u88c5\",\"w_985\",\"w_978,w_985\",0],[\"\\u529b\\u91cf\",\"w_986\",\"w_974,w_986\",0],[\"\\u5e94\",\"w_987\",\"w_977,w_987\",0],[\"\\u89e3\\u9664\",\"w_988\",\"\",0],[\"\\u6b66\\u88c5\",\"w_989\",\"\",0],[\"\\u3002\",\"w_990\",\"\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",16925],[[[\"Hers\",\"w_1016\",\"w_1016,w_1027\",0,\" \"],[\"was\",\"w_1017\",\"w_1017,w_1025\",0,\" \"],[\"the\",\"w_1018\",\"w_1018\",0,\" \"],[\"suggestion\",\"w_1019\",\"w_1019,w_1028\",1,\" \"],[\"I\",\"w_1020\",\"w_1020,w_1024\",0,\" \"],[\"acted\",\"w_1021\",\"w_1021,w_1025\",0,\" \"],[\"upon\",\"w_1022\",\"w_1022,w_1026\",0],[\".\",\"w_1023\",\"w_1023,w_1032\",0]],[[\"\\u6211\",\"w_1024\",\"w_1020,w_1024\",0],[\"\\u662f\",\"w_1025\",\"w_1021,w_1025\",0],[\"\\u6309\\u7167\",\"w_1026\",\"w_1022,w_1026\",0],[\"\\u5979\\u7684\",\"w_1027\",\"w_1016,w_1027\",0],[\"\\u5efa\\u8bae\",\"w_1028\",\"w_1019,w_1028\",0],[\"\\u53bb\",\"w_1029\",\"\",0],[\"\\u505a\",\"w_1030\",\"\",0],[\"\\u7684\",\"w_1031\",\"\",0],[\"\\u3002\",\"w_1032\",\"w_1023,w_1032\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",28887],[[[\"We\",\"w_1050\",\"w_1050,w_1062\",0,\" \"],[\"would\",\"w_1051\",\"w_1051,w_1063\",0,\" \"],[\"view\",\"w_1052\",\"w_1052,w_1069\",0,\" \"],[\"favourably\",\"w_1053\",\"w_1053,w_1063\",0,\" \"],[\"any\",\"w_1054\",\"w_1054,w_1071\",0,\" \"],[\"sensible\",\"w_1055\",\"w_1055,w_1067\",0,\" \"],[\"suggestion\",\"w_1056\",\"w_1056,w_1073\",1,\" \"],[\"for\",\"w_1057\",\"w_1057,w_1064\",0,\" \"],[\"maintaining\",\"w_1058\",\"w_1058,w_1065\",0,\" \"],[\"the\",\"w_1059\",\"w_1059\",0,\" \"],[\"business\",\"w_1060\",\"w_1060,w_1066\",0],[\".\",\"w_1061\",\"w_1061,w_1074\",0]],[[\"\\u6211\\u4eec\",\"w_1062\",\"w_1050,w_1062\",0],[\"\\u6b22\\u8fce\",\"w_1063\",\"w_1053,w_1063\",0],[\"\\u4e3a\",\"w_1064\",\"w_1057,w_1064\",0],[\"\\u7ef4\\u6301\",\"w_1065\",\"w_1058,w_1065\",0],[\"\\u4e1a\\u52a1\",\"w_1066\",\"w_1060,w_1066\",0],[\"\\u7a33\\u5b9a\",\"w_1067\",\"w_1055,w_1067\",0],[\"\\u800c\",\"w_1068\",\"\",0],[\"\\u63d0\\u51fa\",\"w_1069\",\"w_1052,w_1069\",0],[\"\\u7684\",\"w_1070\",\"\",0],[\"\\u6240\\u6709\",\"w_1071\",\"w_1054,w_1071\",0],[\"\\u5408\\u7406\",\"w_1072\",\"\",0],[\"\\u5efa\\u8bae\",\"w_1073\",\"w_1056,w_1073\",0],[\"\\u3002\",\"w_1074\",\"w_1061,w_1074\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",68745],[[[\"I\",\"w_1100\",\"w_1100,w_1114\",0,\" \"],[\"would\",\"w_1101\",\"w_1101,w_1115\",0,\" \"],[\"challenge\",\"w_1102\",\"w_1102,w_1122\",0,\" \"],[\"the\",\"w_1103\",\"w_1103\",0],[\",\",\"w_1104\",\"w_1104,w_1118\",0,\" \"],[\"er\",\"w_1105\",\"w_1105,w_1119\",0],[\",\",\"w_1106\",\"w_1106,w_1120\",0,\" \"],[\"suggestion\",\"w_1107\",\"w_1107,w_1126\",1,\" \"],[\"that\",\"w_1108\",\"w_1108,w_1117\",0,\" \"],[\"we\",\"w_1109\",\"w_1109,w_1121\",0],[\"'re\",\"w_1110\",\"w_1110,w_1116\",0,\" \"],[\"in\",\"w_1111\",\"w_1111,w_1112,w_1113,w_1122,w_1123,w_1124\",0,\" \"],[\"third\",\"w_1112\",\"w_1111,w_1112,w_1113,w_1122,w_1123,w_1124\",0,\" \"],[\"place\",\"w_1113\",\"w_1111,w_1112,w_1113,w_1122,w_1123,w_1124\",0]],[[\"\\u6211\",\"w_1114\",\"w_1100,w_1114\",0],[\"\\u4e0d\",\"w_1115\",\"w_1101,w_1115\",0],[\"\\u592a\",\"w_1116\",\"w_1110,w_1116\",0],[\"\\u540c\\u610f\",\"w_1117\",\"w_1108,w_1117\",0],[\"\\uff0c\",\"w_1118\",\"w_1104,w_1118\",0],[\"\\u5443\",\"w_1119\",\"w_1105,w_1119\",0],[\"\\uff0c\",\"w_1120\",\"w_1106,w_1120\",0],[\"\\u6211\\u4eec\",\"w_1121\",\"w_1109,w_1121\",0],[\"\\u4f4d\\u5c45\",\"w_1122\",\"w_1111,w_1112,w_1113,w_1122,w_1123,w_1124\",0],[\"\\u7b2c\",\"w_1123\",\"w_1111,w_1112,w_1113,w_1122,w_1123,w_1124\",0],[\"\\u4e09\",\"w_1124\",\"w_1111,w_1112,w_1113,w_1122,w_1123,w_1124\",0],[\"\\u7684\",\"w_1125\",\"\",0],[\"\\u8bf4\\u6cd5\",\"w_1126\",\"w_1107,w_1126\",0],[\"\\u3002\",\"w_1127\",\"\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",20309],[[[\"It\",\"w_1156\",\"w_1156,w_1157,w_1158,w_1173,w_1174\",0,\" \"],[\"is\",\"w_1157\",\"w_1156,w_1157,w_1158,w_1173,w_1174\",0,\" \"],[\"unlikely\",\"w_1158\",\"w_1156,w_1157,w_1158,w_1173,w_1174\",0,\" \"],[\"that\",\"w_1159\",\"w_1159\",0,\" \"],[\"this\",\"w_1160\",\"w_1160,w_1171\",0,\" \"],[\"suggestion\",\"w_1161\",\"w_1161,w_1172\",1,\" \"],[\"will\",\"w_1162\",\"w_1162,w_1174\",0,\" \"],[\"be\",\"w_1163\",\"w_1163,w_1180\",0,\" \"],[\"greeted\",\"w_1164\",\"w_1164,w_1165,w_1181,w_1182\",0,\" \"],[\"enthusiastically\",\"w_1165\",\"w_1164,w_1165,w_1181,w_1182\",0,\" \"],[\"in\",\"w_1166\",\"w_1166,w_1175\",0,\" \"],[\"the\",\"w_1167\",\"w_1167\",0,\" \"],[\"Baltic\",\"w_1168\",\"w_1168,w_1176\",0,\" \"],[\"States\",\"w_1169\",\"w_1169,w_1179\",0],[\".\",\"w_1170\",\"w_1170,w_1183\",0]],[[\"\\u8be5\",\"w_1171\",\"w_1160,w_1171\",0],[\"\\u63d0\\u8bae\",\"w_1172\",\"w_1161,w_1172\",0],[\"\\u4e0d\\u5927\",\"w_1173\",\"w_1156,w_1157,w_1158,w_1173,w_1174\",0],[\"\\u53ef\\u80fd\",\"w_1174\",\"w_1162,w_1174\",0],[\"\\u5728\",\"w_1175\",\"w_1166,w_1175\",0],[\"\\u6ce2\\u7f57\",\"w_1176\",\"w_1168,w_1176\",0],[\"\\u7684\",\"w_1177\",\"\",0],[\"\\u6d77\",\"w_1178\",\"\",0],[\"\\u8bf8\\u56fd\",\"w_1179\",\"w_1169,w_1179\",0],[\"\\u5f97\\u5230\",\"w_1180\",\"w_1163,w_1180\",0],[\"\\u70ed\\u70c8\",\"w_1181\",\"w_1164,w_1165,w_1181,w_1182\",0],[\"\\u54cd\\u5e94\",\"w_1182\",\"w_1164,w_1165,w_1181,w_1182\",0],[\"\\u3002\",\"w_1183\",\"w_1170,w_1183\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",26959],[[[\"He\",\"w_1212\",\"w_1212,w_1222\",0,\" \"],[\"accused\",\"w_1213\",\"w_1213,w_1223\",0,\" \"],[\"Mrs\",\"w_1214\",\"w_1214,w_1225\",0,\" \"],[\"Moore\",\"w_1215\",\"w_1215,w_1224\",0,\" \"],[\"of\",\"w_1216\",\"w_1216\",0,\" \"],[\"making\",\"w_1217\",\"w_1217,w_1226\",0,\" \"],[\"an\",\"w_1218\",\"w_1218,w_1219,w_1227\",0,\" \"],[\"indecent\",\"w_1219\",\"w_1218,w_1219,w_1227\",0,\" \"],[\"suggestion\",\"w_1220\",\"w_1220,w_1230\",1],[\".\",\"w_1221\",\"w_1221,w_1231\",0]],[[\"\\u4ed6\",\"w_1222\",\"w_1212,w_1222\",0],[\"\\u6307\\u8d23\",\"w_1223\",\"w_1213,w_1223\",0],[\"\\u6469\\u5c14\",\"w_1224\",\"w_1215,w_1224\",0],[\"\\u592b\\u4eba\",\"w_1225\",\"w_1214,w_1225\",0],[\"\\u505a\",\"w_1226\",\"w_1217,w_1226\",0],[\"\\u4e0b\\u6d41\",\"w_1227\",\"w_1218,w_1219,w_1227\",0],[\"\\u7684\",\"w_1228\",\"\",0],[\"\\u6027\",\"w_1229\",\"\",0],[\"\\u6697\\u793a\",\"w_1230\",\"w_1220,w_1230\",0],[\"\\u3002\",\"w_1231\",\"w_1221,w_1231\",0]],\"\\u300a\\u67ef\\u6797\\u65af\\u9ad8\\u9636\\u82f1\\u6c49\\u53cc\\u89e3\\u5b66\\u4e60\\u8bcd\\u5178\\u300b\",31193],[[[\"His\",\"w_1252\",\"w_1252,w_1258\",0,\" \"],[\"suggestion\",\"w_1253\",\"w_1253,w_1259\",1,\" \"],[\"is\",\"w_1254\",\"w_1254,w_1262\",0,\" \"],[\"not\",\"w_1255\",\"w_1255,w_1256,w_1263\",0,\" \"],[\"workable\",\"w_1256\",\"w_1255,w_1256,w_1263\",0],[\".\",\"w_1257\",\"w_1257,w_1265\",0]],[[\"\\u4ed6\",\"w_1258\",\"w_1252,w_1258\",0],[\"\\u63d0\\u51fa\",\"w_1259\",\"w_1253,w_1259\",0],[\"\\u7684\",\"w_1260\",\"\",0],[\"\\u529e\\u6cd5\",\"w_1261\",\"\",0],[\"\\u662f\",\"w_1262\",\"w_1254,w_1262\",0],[\"\\u884c\\u4e0d\\u901a\",\"w_1263\",\"w_1255,w_1256,w_1263\",0],[\"\\u7684\",\"w_1264\",\"\",0],[\"\\u3002\",\"w_1265\",\"w_1257,w_1265\",0]],\"\\u300a\\u6c49\\u82f1\\u5927\\u8bcd\\u5178\\u300b\",87857]]",
+      "tag": [
+        "\u5efa\u8bae",
+        "\u610f\u89c1",
+        "\u6697\u793a",
+        "\u8054\u60f3",
+        "\u542f\u53d1"
+      ],
+      "single":
+        "[[[[\"Shanghai\",\"w_0\",0],[\"'s\",\"w_1\",0,\" \"],[\"Political\",\"w_2\",0,\" \"],[\"Consultative\",\"w_3\",0,\" \"],[\"Committee\",\"w_4\",0,\" \"],[\"made\",\"w_5\",0,\" \"],[\"the\",\"w_6\",0,\" \"],[\"suggestion\",\"w_7\",0,\" \"],[\"of\",\"w_8\",0,\" \"],[\"the\",\"w_9\",0,\" \"],[\"vacation\",\"w_10\",0,\" \"],[\"leave\",\"w_11\",0,\" \"],[\"yesterday\",\"w_12\",0],[\".\",\"w_13\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/china\\/2009-08\\/04\\/content_8520596.htm\",23248],[[[\"Chow\",\"w_28\",0,\" \"],[\"rejected\",\"w_29\",0,\" \"],[\"the\",\"w_30\",0,\" \"],[\"suggestion\",\"w_31\",0,\" \"],[\"that\",\"w_32\",0,\" \"],[\"tobacco\",\"w_33\",0,\" \"],[\"duty\",\"w_34\",0,\" \"],[\"increase\",\"w_35\",0,\" \"],[\"would\",\"w_36\",0,\" \"],[\"prompt\",\"w_37\",0,\" \"],[\"smokers\",\"w_38\",0,\" \"],[\"to\",\"w_39\",0,\" \"],[\"buy\",\"w_40\",0,\" \"],[\"illicit\",\"w_41\",0,\" \"],[\"cigarettes\",\"w_42\",0],[\",\",\"w_43\",0,\" \"],[\"saying\",\"w_44\",0,\" \"],[\"the\",\"w_45\",0,\" \"],[\"government\",\"w_46\",0,\" \"],[\"is\",\"w_47\",0,\" \"],[\"determined\",\"w_48\",0,\" \"],[\"to\",\"w_49\",0,\" \"],[\"crack\",\"w_50\",0,\" \"],[\"down\",\"w_51\",0,\" \"],[\"on\",\"w_52\",0,\" \"],[\"illicit\",\"w_53\",0,\" \"],[\"cigarettes\",\"w_54\",0],[\".\",\"w_55\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/hkedition\\/2011-06\\/16\\/content_12707812.htm\",1037356],[[[\"McChrystal\",\"w_84\",0],[\"'s\",\"w_85\",0,\" \"],[\"recommendations\",\"w_86\",0,\" \"],[\"got\",\"w_87\",0,\" \"],[\"broad\",\"w_88\",0,\" \"],[\"endorsement\",\"w_89\",0,\" \"],[\"from\",\"w_90\",0,\" \"],[\"NATO\",\"w_91\",0,\" \"],[\"defense\",\"w_92\",0,\" \"],[\"chiefs\",\"w_93\",0,\" \"],[\"last\",\"w_94\",0,\" \"],[\"week\",\"w_95\",0],[\",\",\"w_96\",0,\" \"],[\"with\",\"w_97\",0,\" \"],[\"the\",\"w_98\",0,\" \"],[\"suggestion\",\"w_99\",0,\" \"],[\"that\",\"w_100\",0,\" \"],[\"some\",\"w_101\",0,\" \"],[\"nations\",\"w_102\",0,\" \"],[\"will\",\"w_103\",0,\" \"],[\"increase\",\"w_104\",0,\" \"],[\"troops\",\"w_105\",0,\" \"],[\"or\",\"w_106\",0,\" \"],[\"other\",\"w_107\",0,\" \"],[\"resources\",\"w_108\",0],[\".\",\"w_109\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/world\\/2009-10\\/29\\/content_8869634.htm\",1029896],[[[\"He\",\"w_136\",0,\" \"],[\"made\",\"w_137\",0,\" \"],[\"the\",\"w_138\",0,\" \"],[\"suggestion\",\"w_139\",0,\" \"],[\"to\",\"w_140\",0,\" \"],[\"enact\",\"w_141\",0,\" \"],[\"certain\",\"w_142\",0,\" \"],[\"local\",\"w_143\",0,\" \"],[\"regulations\",\"w_144\",0,\" \"],[\"on\",\"w_145\",0,\" \"],[\"the\",\"w_146\",0,\" \"],[\"donation\",\"w_147\",0,\" \"],[\"of\",\"w_148\",0,\" \"],[\"corneas\",\"w_149\",0,\" \"],[\"to\",\"w_150\",0,\" \"],[\"ensure\",\"w_151\",0,\" \"],[\"the\",\"w_152\",0,\" \"],[\"bank\",\"w_153\",0,\" \"],[\"could\",\"w_154\",0,\" \"],[\"get\",\"w_155\",0,\" \"],[\"them\",\"w_156\",0,\" \"],[\"after\",\"w_157\",0,\" \"],[\"the\",\"w_158\",0,\" \"],[\"donors\",\"w_159\",0,\" \"],[\"'\",\"w_160\",0],[\"death\",\"w_161\",0],[\".\",\"w_162\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/english\\/doc\\/2004-11\\/23\\/content_393789.htm\",1014172],[[[\"South\",\"w_190\",0,\" \"],[\"African\",\"w_191\",0,\" \"],[\"ruling\",\"w_192\",0,\" \"],[\"ANC\",\"w_193\",0,\" \"],[\"leader\",\"w_194\",0,\" \"],[\"Jacob\",\"w_195\",0,\" \"],[\"Zuma\",\"w_196\",0,\" \"],[\"backed\",\"w_197\",0,\" \"],[\"a\",\"w_198\",0,\" \"],[\"diplomatic\",\"w_199\",0,\" \"],[\"push\",\"w_200\",0,\" \"],[\"as\",\"w_201\",0,\" \"],[\"the\",\"w_202\",0,\" \"],[\"way\",\"w_203\",0,\" \"],[\"to\",\"w_204\",0,\" \"],[\"end\",\"w_205\",0,\" \"],[\"political\",\"w_206\",0,\" \"],[\"deadlock\",\"w_207\",0,\" \"],[\"and\",\"w_208\",0,\" \"],[\"rejected\",\"w_209\",0,\" \"],[\"any\",\"w_210\",0,\" \"],[\"suggestion\",\"w_211\",0,\" \"],[\"of\",\"w_212\",0,\" \"],[\"sending\",\"w_213\",0,\" \"],[\"troops\",\"w_214\",0],[\".\",\"w_215\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2008-12\\/19\\/content_7320676.htm\",1009439],[[[\"One\",\"w_242\",0,\" \"],[\"suggestion\",\"w_243\",0,\" \"],[\"is\",\"w_244\",0,\" \"],[\"that\",\"w_245\",0,\" \"],[\"Alibaba\",\"w_246\",0,\" \"],[\"learned\",\"w_247\",0,\" \"],[\"hard\",\"w_248\",0,\" \"],[\"lessons\",\"w_249\",0,\" \"],[\"when\",\"w_250\",0,\" \"],[\"a\",\"w_251\",0,\" \"],[\"number\",\"w_252\",0,\" \"],[\"of\",\"w_253\",0,\" \"],[\"delivery\",\"w_254\",0,\" \"],[\"companies\",\"w_255\",0,\" \"],[\"walked\",\"w_256\",0,\" \"],[\"out\",\"w_257\",0,\" \"],[\"demanding\",\"w_258\",0,\" \"],[\"higher\",\"w_259\",0,\" \"],[\"pay\",\"w_260\",0,\" \"],[\"earlier\",\"w_261\",0,\" \"],[\"this\",\"w_262\",0,\" \"],[\"year\",\"w_263\",0],[\".\",\"w_264\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/business\\/2011-05\\/30\\/content_12601686.htm\",1007706],[[[\"There\",\"w_288\",0,\" \"],[\"was\",\"w_289\",0,\" \"],[\"no\",\"w_290\",0,\" \"],[\"suggestion\",\"w_291\",0,\" \"],[\"the\",\"w_292\",0,\" \"],[\"operation\",\"w_293\",0,\" \"],[\"was\",\"w_294\",0,\" \"],[\"a\",\"w_295\",0,\" \"],[\"fiendish\",\"w_296\",0,\" \"],[\"plot\",\"w_297\",0,\" \"],[\"to\",\"w_298\",0,\" \"],[\"improve\",\"w_299\",0,\" \"],[\"his\",\"w_300\",0,\" \"],[\"poll\",\"w_301\",0,\" \"],[\"numbers\",\"w_302\",0],[\",\",\"w_303\",0,\" \"],[\"but\",\"w_304\",0,\" \"],[\"politics\",\"w_305\",0,\" \"],[\"are\",\"w_306\",0,\" \"],[\"shaped\",\"w_307\",0,\" \"],[\"by\",\"w_308\",0,\" \"],[\"events\",\"w_309\",0],[\".\",\"w_310\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2011-05\\/05\\/content_12447398.htm\",1003009],[[[\"Wang\",\"w_334\",0,\" \"],[\"said\",\"w_335\",0,\" \"],[\"his\",\"w_336\",0,\" \"],[\"previous\",\"w_337\",0,\" \"],[\"suggestions\",\"w_338\",0,\" \"],[\"have\",\"w_339\",0,\" \"],[\"received\",\"w_340\",0,\" \"],[\"\\\"\",\"w_341\",0],[\"positive\",\"w_342\",0],[\"\\\"\",\"w_343\",0,\" \"],[\"feedback\",\"w_344\",0,\" \"],[\"from\",\"w_345\",0,\" \"],[\"relevant\",\"w_346\",0,\" \"],[\"government\",\"w_347\",0,\" \"],[\"departments\",\"w_348\",0,\" \"],[\"and\",\"w_349\",0,\" \"],[\"he\",\"w_350\",0,\" \"],[\"hopes\",\"w_351\",0,\" \"],[\"the\",\"w_352\",0,\" \"],[\"suggestion\",\"w_353\",0,\" \"],[\"will\",\"w_354\",0,\" \"],[\"really\",\"w_355\",0,\" \"],[\"make\",\"w_356\",0,\" \"],[\"a\",\"w_357\",0,\" \"],[\"difference\",\"w_358\",0,\" \"],[\"this\",\"w_359\",0,\" \"],[\"year\",\"w_360\",0],[\".\",\"w_361\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/china\\/2007-03\\/04\\/content_818991.htm\",1001577],[[[\"Her\",\"w_390\",0,\" \"],[\"suggestion\",\"w_391\",0,\" \"],[\"to\",\"w_392\",0,\" \"],[\"have\",\"w_393\",0,\" \"],[\"the\",\"w_394\",0,\" \"],[\"central\",\"w_395\",0,\" \"],[\"government\",\"w_396\",0,\" \"],[\"start\",\"w_397\",0,\" \"],[\"a\",\"w_398\",0,\" \"],[\"special\",\"w_399\",0,\" \"],[\"fund\",\"w_400\",0,\" \"],[\"to\",\"w_401\",0,\" \"],[\"improve\",\"w_402\",0,\" \"],[\"terraced\",\"w_403\",0,\" \"],[\"farm\",\"w_404\",0,\" \"],[\"fields\",\"w_405\",0,\" \"],[\"has\",\"w_406\",0,\" \"],[\"been\",\"w_407\",0,\" \"],[\"turned\",\"w_408\",0,\" \"],[\"into\",\"w_409\",0,\" \"],[\"a\",\"w_410\",0,\" \"],[\"national\",\"w_411\",0,\" \"],[\"project\",\"w_412\",0],[\".\",\"w_413\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/opinion\\/2011-03\\/15\\/content_12188831.htm\",995572],[[[\"Some\",\"w_438\",0,\" \"],[\"netizens\",\"w_439\",0,\" \"],[\"said\",\"w_440\",0,\" \"],[\"a\",\"w_441\",0,\" \"],[\"code\",\"w_442\",0,\" \"],[\"system\",\"w_443\",0,\" \"],[\"should\",\"w_444\",0,\" \"],[\"be\",\"w_445\",0,\" \"],[\"used\",\"w_446\",0,\" \"],[\"on\",\"w_447\",0,\" \"],[\"the\",\"w_448\",0,\" \"],[\"website\",\"w_449\",0],[\",\",\"w_450\",0,\" \"],[\"but\",\"w_451\",0,\" \"],[\"the\",\"w_452\",0,\" \"],[\"manager\",\"w_453\",0,\" \"],[\"said\",\"w_454\",0,\" \"],[\"the\",\"w_455\",0,\" \"],[\"company\",\"w_456\",0,\" \"],[\"will\",\"w_457\",0,\" \"],[\"not\",\"w_458\",0,\" \"],[\"consider\",\"w_459\",0,\" \"],[\"heeding\",\"w_460\",0,\" \"],[\"that\",\"w_461\",0,\" \"],[\"suggestion\",\"w_462\",0],[\".\",\"w_463\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2011-10\\/11\\/content_13865834.htm\",994073],[[[\"He\",\"w_490\",0,\" \"],[\"was\",\"w_491\",0,\" \"],[\"told\",\"w_492\",0,\" \"],[\"that\",\"w_493\",0,\" \"],[\"there\",\"w_494\",0,\" \"],[\"were\",\"w_495\",0,\" \"],[\"not\",\"w_496\",0,\" \"],[\"enough\",\"w_497\",0,\" \"],[\"conditions\",\"w_498\",0,\" \"],[\"for\",\"w_499\",0,\" \"],[\"making\",\"w_500\",0,\" \"],[\"transparent\",\"w_501\",0,\" \"],[\"the\",\"w_502\",0,\" \"],[\"declared\",\"w_503\",0,\" \"],[\"properties\",\"w_504\",0,\" \"],[\"of\",\"w_505\",0,\" \"],[\"government\",\"w_506\",0,\" \"],[\"officials\",\"w_507\",0,\" \"],[\"when\",\"w_508\",0,\" \"],[\"he\",\"w_509\",0,\" \"],[\"first\",\"w_510\",0,\" \"],[\"presented\",\"w_511\",0,\" \"],[\"the\",\"w_512\",0,\" \"],[\"suggestion\",\"w_513\",0],[\".\",\"w_514\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/opinion\\/2012-03\\/05\\/content_14753494.htm\",993898],[[[\"And\",\"w_540\",0,\" \"],[\"the\",\"w_541\",0,\" \"],[\"suggestion\",\"w_542\",0,\" \"],[\"to\",\"w_543\",0,\" \"],[\"limit\",\"w_544\",0,\" \"],[\"fare\",\"w_545\",0,\" \"],[\"negotiations\",\"w_546\",0,\" \"],[\"to\",\"w_547\",0,\" \"],[\"call\",\"w_548\",0,\" \"],[\"taxis\",\"w_549\",0,\" \"],[\"is\",\"w_550\",0,\" \"],[\"a\",\"w_551\",0,\" \"],[\"pointless\",\"w_552\",0,\" \"],[\"exercise\",\"w_553\",0,\" \"],[\"that\",\"w_554\",0,\" \"],[\"could\",\"w_555\",0,\" \"],[\"have\",\"w_556\",0,\" \"],[\"unwanted\",\"w_557\",0,\" \"],[\"consequences\",\"w_558\",0],[\".\",\"w_559\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2007-11\\/06\\/content_6232615.htm\",989966],[[[\"My\",\"w_580\",0,\" \"],[\"final\",\"w_581\",0,\" \"],[\"suggestion\",\"w_582\",0,\" \"],[\"would\",\"w_583\",0,\" \"],[\"be\",\"w_584\",0,\" \"],[\"to\",\"w_585\",0,\" \"],[\"visit\",\"w_586\",0,\" \"],[\"the\",\"w_587\",0,\" \"],[\"Three\",\"w_588\",0,\" \"],[\"Gorges\",\"w_589\",0,\" \"],[\"Dam\",\"w_590\",0,\" \"],[\"area\",\"w_591\",0],[\",\",\"w_592\",0,\" \"],[\"although\",\"w_593\",0,\" \"],[\"I\",\"w_594\",0,\" \"],[\"am\",\"w_595\",0,\" \"],[\"not\",\"w_596\",0,\" \"],[\"sure\",\"w_597\",0,\" \"],[\"how\",\"w_598\",0,\" \"],[\"well\",\"w_599\",0,\" \"],[\"centered\",\"w_600\",0,\" \"],[\"this\",\"w_601\",0,\" \"],[\"area\",\"w_602\",0,\" \"],[\"is\",\"w_603\",0,\" \"],[\"over\",\"w_604\",0,\" \"],[\"the\",\"w_605\",0,\" \"],[\"eclipse\",\"w_606\",0,\" \"],[\"line\",\"w_607\",0],[\".\",\"w_608\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/m\\/hangzhou\\/e\\/2009-07\\/10\\/content_8561576.htm\",988338],[[[\"Students\",\"w_638\",0,\" \"],[\"learn\",\"w_639\",0,\" \"],[\"actual\",\"w_640\",0,\" \"],[\"work\",\"w_641\",0,\" \"],[\"practices\",\"w_642\",0],[\"-\",\"w_643\",0],[\"such\",\"w_644\",0,\" \"],[\"as\",\"w_645\",0,\" \"],[\"the\",\"w_646\",0,\" \"],[\"suggestion\",\"w_647\",0,\" \"],[\"box\",\"w_648\",0,\" \"],[\"system\",\"w_649\",0],[\",\",\"w_650\",0,\" \"],[\"in\",\"w_651\",0,\" \"],[\"which\",\"w_652\",0,\" \"],[\"employees\",\"w_653\",0,\" \"],[\"at\",\"w_654\",0,\" \"],[\"all\",\"w_655\",0,\" \"],[\"levels\",\"w_656\",0,\" \"],[\"and\",\"w_657\",0,\" \"],[\"fields\",\"w_658\",0,\" \"],[\"make\",\"w_659\",0,\" \"],[\"recommendations\",\"w_660\",0,\" \"],[\"to\",\"w_661\",0,\" \"],[\"improve\",\"w_662\",0,\" \"],[\"operations\",\"w_663\",0],[\".\",\"w_664\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/en\\/doc\\/2003-08\\/19\\/content_257368.htm\",986459],[[[\"The\",\"w_692\",0,\" \"],[\"examples\",\"w_693\",0,\" \"],[\"show\",\"w_694\",0,\" \"],[\"that\",\"w_695\",0,\" \"],[\"his\",\"w_696\",0,\" \"],[\"suggestion\",\"w_697\",0,\" \"],[\"of\",\"w_698\",0,\" \"],[\"directly\",\"w_699\",0,\" \"],[\"using\",\"w_700\",0,\" \"],[\"pinyin\",\"w_701\",0,\" \"],[\"in\",\"w_702\",0,\" \"],[\"the\",\"w_703\",0,\" \"],[\"translation\",\"w_704\",0,\" \"],[\"of\",\"w_705\",0,\" \"],[\"some\",\"w_706\",0,\" \"],[\"Chinese\",\"w_707\",0,\" \"],[\"expressions\",\"w_708\",0,\" \"],[\"or\",\"w_709\",0,\" \"],[\"ideas\",\"w_710\",0,\" \"],[\"does\",\"w_711\",0,\" \"],[\"not\",\"w_712\",0,\" \"],[\"always\",\"w_713\",0,\" \"],[\"work\",\"w_714\",0],[\".\",\"w_715\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2008-07\\/19\\/content_6860357.htm\",986319],[[[\"There\",\"w_740\",0,\" \"],[\"was\",\"w_741\",0,\" \"],[\"no\",\"w_742\",0,\" \"],[\"suggestion\",\"w_743\",0,\" \"],[\"by\",\"w_744\",0,\" \"],[\"either\",\"w_745\",0,\" \"],[\"of\",\"w_746\",0,\" \"],[\"the\",\"w_747\",0,\" \"],[\"sources\",\"w_748\",0,\" \"],[\"that\",\"w_749\",0,\" \"],[\"the\",\"w_750\",0,\" \"],[\"satellite\",\"w_751\",0,\" \"],[\"had\",\"w_752\",0,\" \"],[\"been\",\"w_753\",0,\" \"],[\"purposely\",\"w_754\",0,\" \"],[\"damaged\",\"w_755\",0,\" \"],[\"as\",\"w_756\",0,\" \"],[\"part\",\"w_757\",0,\" \"],[\"of\",\"w_758\",0,\" \"],[\"a\",\"w_759\",0,\" \"],[\"terrorist\",\"w_760\",0,\" \"],[\"attack\",\"w_761\",0],[\".\",\"w_762\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/world\\/2007-01\\/12\\/content_782216.htm\",981721],[[[\"People\",\"w_786\",0,\" \"],[\"across\",\"w_787\",0,\" \"],[\"Asia\",\"w_788\",0,\" \"],[\"and\",\"w_789\",0,\" \"],[\"the\",\"w_790\",0,\" \"],[\"United\",\"w_791\",0,\" \"],[\"States\",\"w_792\",0,\" \"],[\"were\",\"w_793\",0,\" \"],[\"infuriated\",\"w_794\",0,\" \"],[\"at\",\"w_795\",0,\" \"],[\"Abe\",\"w_796\",0],[\"'s\",\"w_797\",0,\" \"],[\"suggestion\",\"w_798\",0,\" \"],[\"that\",\"w_799\",0,\" \"],[\"no\",\"w_800\",0,\" \"],[\"proof\",\"w_801\",0,\" \"],[\"exists\",\"w_802\",0,\" \"],[\"that\",\"w_803\",0,\" \"],[\"the\",\"w_804\",0,\" \"],[\"military\",\"w_805\",0,\" \"],[\"had\",\"w_806\",0,\" \"],[\"coerced\",\"w_807\",0,\" \"],[\"women\",\"w_808\",0,\" \"],[\"into\",\"w_809\",0,\" \"],[\"brothels\",\"w_810\",0],[\".\",\"w_811\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2007-04\\/28\\/content_862355.htm\",979539],[[[\"His\",\"w_838\",0,\" \"],[\"suggestion\",\"w_839\",0,\" \"],[\"for\",\"w_840\",0,\" \"],[\"the\",\"w_841\",0,\" \"],[\"younger\",\"w_842\",0,\" \"],[\"generation\",\"w_843\",0,\" \"],[\"dreaming\",\"w_844\",0,\" \"],[\"of\",\"w_845\",0,\" \"],[\"a\",\"w_846\",0,\" \"],[\"career\",\"w_847\",0,\" \"],[\"in\",\"w_848\",0,\" \"],[\"this\",\"w_849\",0,\" \"],[\"field\",\"w_850\",0,\" \"],[\"is\",\"w_851\",0,\" \"],[\"not\",\"w_852\",0,\" \"],[\"to\",\"w_853\",0,\" \"],[\"be\",\"w_854\",0,\" \"],[\"too\",\"w_855\",0,\" \"],[\"influenced\",\"w_856\",0,\" \"],[\"by\",\"w_857\",0,\" \"],[\"material\",\"w_858\",0,\" \"],[\"objects\",\"w_859\",0,\" \"],[\"or\",\"w_860\",0,\" \"],[\"money\",\"w_861\",0],[\".\",\"w_862\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2007-08\\/03\\/content_5447745.htm\",977805],[[[\"She\",\"w_888\",0,\" \"],[\"has\",\"w_889\",0,\" \"],[\"already\",\"w_890\",0,\" \"],[\"said\",\"w_891\",0,\" \"],[\"she\",\"w_892\",0,\" \"],[\"will\",\"w_893\",0,\" \"],[\"help\",\"w_894\",0,\" \"],[\"with\",\"w_895\",0,\" \"],[\"any\",\"w_896\",0,\" \"],[\"investigation\",\"w_897\",0,\" \"],[\"and\",\"w_898\",0,\" \"],[\"there\",\"w_899\",0,\" \"],[\"was\",\"w_900\",0,\" \"],[\"no\",\"w_901\",0,\" \"],[\"suggestion\",\"w_902\",0,\" \"],[\"that\",\"w_903\",0,\" \"],[\"she\",\"w_904\",0,\" \"],[\"herself\",\"w_905\",0,\" \"],[\"had\",\"w_906\",0,\" \"],[\"knowingly\",\"w_907\",0,\" \"],[\"broken\",\"w_908\",0,\" \"],[\"the\",\"w_909\",0,\" \"],[\"law\",\"w_910\",0],[\".\",\"w_911\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2010-06\\/29\\/content_10031904.htm\",970583],[[[\"Di\",\"w_936\",0,\" \"],[\"made\",\"w_937\",0,\" \"],[\"the\",\"w_938\",0,\" \"],[\"suggestion\",\"w_939\",0,\" \"],[\"as\",\"w_940\",0,\" \"],[\"accidents\",\"w_941\",0,\" \"],[\"caused\",\"w_942\",0,\" \"],[\"by\",\"w_943\",0,\" \"],[\"drunk\",\"w_944\",0,\" \"],[\"driving\",\"w_945\",0,\" \"],[\"continue\",\"w_946\",0,\" \"],[\"to\",\"w_947\",0,\" \"],[\"be\",\"w_948\",0,\" \"],[\"very\",\"w_949\",0,\" \"],[\"common\",\"w_950\",0,\" \"],[\"even\",\"w_951\",0,\" \"],[\"with\",\"w_952\",0,\" \"],[\"the\",\"w_953\",0,\" \"],[\"issue\",\"w_954\",0,\" \"],[\"increasingly\",\"w_955\",0,\" \"],[\"in\",\"w_956\",0,\" \"],[\"the\",\"w_957\",0,\" \"],[\"spotlight\",\"w_958\",0],[\".\",\"w_959\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/china\\/2010-01\\/29\\/content_9394576.htm\",970136],[[[\"The\",\"w_984\",0,\" \"],[\"mayor\",\"w_985\",0,\" \"],[\"responded\",\"w_986\",0,\" \"],[\"positively\",\"w_987\",0,\" \"],[\"to\",\"w_988\",0,\" \"],[\"the\",\"w_989\",0,\" \"],[\"idea\",\"w_990\",0,\" \"],[\"on\",\"w_991\",0,\" \"],[\"Oct\",\"w_992\",0,\" \"],[\"21\",\"w_993\",0],[\",\",\"w_994\",0,\" \"],[\"2010\",\"w_995\",0,\" \"],[\"and\",\"w_996\",0,\" \"],[\"has\",\"w_997\",0,\" \"],[\"instructed\",\"w_998\",0,\" \"],[\"the\",\"w_999\",0,\" \"],[\"relevant\",\"w_1000\",0,\" \"],[\"departments\",\"w_1001\",0,\" \"],[\"to\",\"w_1002\",0,\" \"],[\"consider\",\"w_1003\",0,\" \"],[\"implementing\",\"w_1004\",0,\" \"],[\"the\",\"w_1005\",0,\" \"],[\"suggestion\",\"w_1006\",0],[\".\",\"w_1007\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2010-12\\/28\\/content_11762650.htm\",965305],[[[\"The\",\"w_1032\",0,\" \"],[\"suggestion\",\"w_1033\",0,\" \"],[\"and\",\"w_1034\",0,\" \"],[\"deliberation\",\"w_1035\",0,\" \"],[\"show\",\"w_1036\",0,\" \"],[\"clearly\",\"w_1037\",0,\" \"],[\"the\",\"w_1038\",0,\" \"],[\"CPC\",\"w_1039\",0],[\"'s\",\"w_1040\",0,\" \"],[\"handling\",\"w_1041\",0,\" \"],[\"of\",\"w_1042\",0,\" \"],[\"international\",\"w_1043\",0,\" \"],[\"relations\",\"w_1044\",0,\" \"],[\"is\",\"w_1045\",0,\" \"],[\"maturing\",\"w_1046\",0,\" \"],[\"and\",\"w_1047\",0,\" \"],[\"China\",\"w_1048\",0,\" \"],[\"is\",\"w_1049\",0,\" \"],[\"becoming\",\"w_1050\",0,\" \"],[\"a\",\"w_1051\",0,\" \"],[\"responsible\",\"w_1052\",0,\" \"],[\"global\",\"w_1053\",0,\" \"],[\"power\",\"w_1054\",0],[\".\",\"w_1055\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2007-10\\/30\\/content_6214954.htm\",962093],[[[\"And\",\"w_1080\",0,\" \"],[\"he\",\"w_1081\",0,\" \"],[\"dismissed\",\"w_1082\",0,\" \"],[\"a\",\"w_1083\",0,\" \"],[\"common\",\"w_1084\",0,\" \"],[\"suggestion\",\"w_1085\",0,\" \"],[\"that\",\"w_1086\",0,\" \"],[\"Chretien\",\"w_1087\",0,\" \"],[\"can\",\"w_1088\",0,\" \"],[\"walk\",\"w_1089\",0,\" \"],[\"off\",\"w_1090\",0,\" \"],[\"into\",\"w_1091\",0,\" \"],[\"the\",\"w_1092\",0,\" \"],[\"sunset\",\"w_1093\",0,\" \"],[\"thinking\",\"w_1094\",0,\" \"],[\"the\",\"w_1095\",0,\" \"],[\"sovereignty\",\"w_1096\",0,\" \"],[\"movement\",\"w_1097\",0,\" \"],[\"is\",\"w_1098\",0,\" \"],[\"defeated\",\"w_1099\",0],[\".\",\"w_1100\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/en\\/doc\\/2003-11\\/07\\/content_279609.htm\",957132],[[[\"Chen\",\"w_1122\",0,\" \"],[\"was\",\"w_1123\",0,\" \"],[\"inspired\",\"w_1124\",0,\" \"],[\"by\",\"w_1125\",0,\" \"],[\"the\",\"w_1126\",0,\" \"],[\"experience\",\"w_1127\",0,\" \"],[\"and\",\"w_1128\",0,\" \"],[\"insight\",\"w_1129\",0,\" \"],[\"from\",\"w_1130\",0,\" \"],[\"these\",\"w_1131\",0,\" \"],[\"people\",\"w_1132\",0,\" \"],[\"and\",\"w_1133\",0,\" \"],[\"put\",\"w_1134\",0,\" \"],[\"forward\",\"w_1135\",0,\" \"],[\"the\",\"w_1136\",0,\" \"],[\"suggestion\",\"w_1137\",0,\" \"],[\"for\",\"w_1138\",0,\" \"],[\"the\",\"w_1139\",0,\" \"],[\"holiday\",\"w_1140\",0,\" \"],[\"during\",\"w_1141\",0,\" \"],[\"an\",\"w_1142\",0,\" \"],[\"interview\",\"w_1143\",0,\" \"],[\"by\",\"w_1144\",0,\" \"],[\"mainstream\",\"w_1145\",0,\" \"],[\"media\",\"w_1146\",0],[\".\",\"w_1147\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/china\\/2008-04\\/02\\/content_6585815.htm\",956252],[[[\"It\",\"w_1174\",0,\" \"],[\"was\",\"w_1175\",0,\" \"],[\"the\",\"w_1176\",0,\" \"],[\"first\",\"w_1177\",0,\" \"],[\"suggestion\",\"w_1178\",0,\" \"],[\"that\",\"w_1179\",0,\" \"],[\"the\",\"w_1180\",0,\" \"],[\"Obama\",\"w_1181\",0,\" \"],[\"administration\",\"w_1182\",0,\" \"],[\"might\",\"w_1183\",0,\" \"],[\"rethink\",\"w_1184\",0,\" \"],[\"its\",\"w_1185\",0,\" \"],[\"decision\",\"w_1186\",0,\" \"],[\"to\",\"w_1187\",0,\" \"],[\"keep\",\"w_1188\",0,\" \"],[\"as\",\"w_1189\",0,\" \"],[\"many\",\"w_1190\",0,\" \"],[\"forces\",\"w_1191\",0,\" \"],[\"in\",\"w_1192\",0,\" \"],[\"Iraq\",\"w_1193\",0,\" \"],[\"as\",\"w_1194\",0,\" \"],[\"possible\",\"w_1195\",0,\" \"],[\"this\",\"w_1196\",0,\" \"],[\"year\",\"w_1197\",0],[\".\",\"w_1198\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2009-07\\/31\\/content_8496238.htm\",952279],[[[\"We\",\"w_1224\",0,\" \"],[\"certainly\",\"w_1225\",0,\" \"],[\"don\",\"w_1226\",0],[\"'t\",\"w_1227\",0,\" \"],[\"want\",\"w_1228\",0,\" \"],[\"to\",\"w_1229\",0,\" \"],[\"step\",\"w_1230\",0,\" \"],[\"on\",\"w_1231\",0,\" \"],[\"some\",\"w_1232\",0,\" \"],[\"people\",\"w_1233\",0],[\"'s\",\"w_1234\",0,\" \"],[\"toes\",\"w_1235\",0],[\",\",\"w_1236\",0,\" \"],[\"but\",\"w_1237\",0,\" \"],[\"it\",\"w_1238\",0,\" \"],[\"seemed\",\"w_1239\",0,\" \"],[\"like\",\"w_1240\",0,\" \"],[\"the\",\"w_1241\",0,\" \"],[\"Bush\",\"w_1242\",0,\" \"],[\"twins\",\"w_1243\",0,\" \"],[\"was\",\"w_1244\",0,\" \"],[\"the\",\"w_1245\",0,\" \"],[\"first\",\"w_1246\",0,\" \"],[\"suggestion\",\"w_1247\",0,\" \"],[\"that\",\"w_1248\",0,\" \"],[\"everybody\",\"w_1249\",0,\" \"],[\"threw\",\"w_1250\",0,\" \"],[\"out\",\"w_1251\",0],[\".\",\"w_1252\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/english\\/doc\\/2005-03\\/25\\/content_428120.htm\",951831],[[[\"People\",\"w_1282\",0,\" \"],[\"cannot\",\"w_1283\",0,\" \"],[\"help\",\"w_1284\",0,\" \"],[\"wondering\",\"w_1285\",0,\" \"],[\"how\",\"w_1286\",0,\" \"],[\"schools\",\"w_1287\",0,\" \"],[\"would\",\"w_1288\",0,\" \"],[\"be\",\"w_1289\",0,\" \"],[\"penalized\",\"w_1290\",0,\" \"],[\"if\",\"w_1291\",0,\" \"],[\"they\",\"w_1292\",0,\" \"],[\"refused\",\"w_1293\",0,\" \"],[\"the\",\"w_1294\",0,\" \"],[\"government\",\"w_1295\",0],[\"'s\",\"w_1296\",0,\" \"],[\"suggestion\",\"w_1297\",0,\" \"],[\"or\",\"w_1298\",0,\" \"],[\"could\",\"w_1299\",0,\" \"],[\"not\",\"w_1300\",0,\" \"],[\"take\",\"w_1301\",0,\" \"],[\"proper\",\"w_1302\",0,\" \"],[\"measures\",\"w_1303\",0,\" \"],[\"to\",\"w_1304\",0,\" \"],[\"facilitate\",\"w_1305\",0,\" \"],[\"the\",\"w_1306\",0,\" \"],[\"move\",\"w_1307\",0],[\".\",\"w_1308\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/cndy\\/2007-04\\/13\\/content_849564.htm\",951108],[[[\"The\",\"w_1336\",0,\" \"],[\"suggestion\",\"w_1337\",0,\" \"],[\"came\",\"w_1338\",0,\" \"],[\"after\",\"w_1339\",0,\" \"],[\"China\",\"w_1340\",0,\" \"],[\"launched\",\"w_1341\",0,\" \"],[\"a\",\"w_1342\",0,\" \"],[\"string\",\"w_1343\",0,\" \"],[\"of\",\"w_1344\",0,\" \"],[\"crackdowns\",\"w_1345\",0,\" \"],[\"on\",\"w_1346\",0,\" \"],[\"pornographic\",\"w_1347\",0,\" \"],[\"and\",\"w_1348\",0,\" \"],[\"lewd\",\"w_1349\",0,\" \"],[\"content\",\"w_1350\",0,\" \"],[\"on\",\"w_1351\",0,\" \"],[\"the\",\"w_1352\",0,\" \"],[\"Internet\",\"w_1353\",0,\" \"],[\"since\",\"w_1354\",0,\" \"],[\"last\",\"w_1355\",0,\" \"],[\"year\",\"w_1356\",0],[\".\",\"w_1357\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/china\\/2010-01\\/28\\/content_9388082.htm\",947451],[[[\"Bush\",\"w_1380\",0,\" \"],[\"and\",\"w_1381\",0,\" \"],[\"congressional\",\"w_1382\",0,\" \"],[\"Republicans\",\"w_1383\",0,\" \"],[\"had\",\"w_1384\",0,\" \"],[\"balked\",\"w_1385\",0,\" \"],[\"at\",\"w_1386\",0,\" \"],[\"Democrats\",\"w_1387\",0,\" \"],[\"'\",\"w_1388\",0],[\"suggestion\",\"w_1389\",0,\" \"],[\"to\",\"w_1390\",0,\" \"],[\"draw\",\"w_1391\",0,\" \"],[\"emergency\",\"w_1392\",0,\" \"],[\"auto\",\"w_1393\",0,\" \"],[\"industry\",\"w_1394\",0,\" \"],[\"loans\",\"w_1395\",0,\" \"],[\"from\",\"w_1396\",0,\" \"],[\"the\",\"w_1397\",0],[\"$\",\"w_1398\",0,\" \"],[\"700\",\"w_1399\",0,\" \"],[\"billion\",\"w_1400\",0,\" \"],[\"Wall\",\"w_1401\",0,\" \"],[\"Street\",\"w_1402\",0,\" \"],[\"rescue\",\"w_1403\",0,\" \"],[\"fund\",\"w_1404\",0],[\".\",\"w_1405\",0]],\"http:\\/\\/www.chinadaily.com.cn\\/world\\/2008-11\\/21\\/content_7227335.htm\",946808]]"
+    },
+    "logid": 3392707234
+  }
+}
