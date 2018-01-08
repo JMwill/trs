@@ -3,11 +3,16 @@ const os = require('os')
 const resultTmpl = data =>
   `
 翻译结果：
-源：${data.source} => 译：${data.result}${os.EOL + os.EOL}
+源：${data.source}
+
+译：${data.result}
+
+
 建议：
   ${(data.suggestion || [])
     .map(s => ((s.k && s.v) ? `${s.k}: ${s.v}${os.EOL}  ` : ''))
-    .join('')}${os.EOL}
+    .join('')}
+
 详情：
   ${Object.keys(data.details)
     .map(k => `${k}翻译详情：${data.details[k]}`)
