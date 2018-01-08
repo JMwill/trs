@@ -6,17 +6,55 @@ const logUpdate = require('log-update')
 const ora = require('ora')
 const clipboard = require('clipboardy')
 const table = require('table')
-const request = require('superagent')
+const request = require('superagent').agent()
 const boxen = require('boxen')
 const config = require('./config')
+const bdMd5 = require('./md5')
+const pkg = require('../package.json')
+// const stringWidth = require('string-width')
 
 const spinner = ora(config.spinner)
+
+// function splitStrWithColumnWidth(str, width, padding = 20) {
+//   let index = 0
+//   let result = []
+//   let substr
+//   let realWidth
+//   let newIndex
+//   while (str[index]) {
+//     substr = str.substr(index, width)
+//     realWidth = stringWidth(substr)
+//     newIndex = Math.floor((width - padding) * (substr.length / realWidth)) + index
+//     newIndex = newIndex > index ? newIndex : index + 1
+
+//     result.push(str.slice(index, newIndex))
+//     index = newIndex
+//   }
+//   return result
+// }
+
+function generateTmplData(suggestion, transResult) {
+  let data = (transResult.data && transResult.data[0]) || []
+  let src = data.src || ''
+  let dst = data.dst || ''
+  // let terminalWidth = process.stdout.columns
+
+  return {
+    source: src,
+    result: dst,
+    suggestion,
+    details: {
+      百度: `http://fanyi.baidu.com/#${transResult.from}/${transResult.to}/${encodeURIComponent(data.src)}`,
+      谷歌: `https://translate.google.com/#auto/${transResult.to}/${encodeURIComponent(data.src)}`,
+    },
+  }
+}
+
 
 async function reqTo(url, opt) {
   try {
     let res = await request
       .post(url)
-      .set('Content-Type', 'application/json')
       .type('form')
       .send(opt)
     return res
@@ -32,6 +70,24 @@ async function detectlang(word) {
   } catch (err) {
     throw new Error(config.errTmpl('detectlang', err))
   }
+}
+
+async function getTokenEtc() {
+  const tokenReg = /token:\s?'([^']*)'/g
+  const gtkReg = /gtk\s?=\s?'([^']*)'/g
+  let res = await request
+    .get(config.URLs[config.env])
+    .set('Cache-Control', 'no-cache')
+    .set('Pragma', 'no-cache')
+    .set('User-Agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36')
+    .then(({ text }) => {
+      const token = tokenReg.exec(text)
+      const gtk = gtkReg.exec(text)
+      return (token && token[1])
+        ? { token: token[1], gtk: (gtk && gtk[1]) || '' }
+        : {}
+    })
+  return res
 }
 
 async function getSuggestion(word) {
@@ -58,27 +114,15 @@ async function getTranslate(postData) {
  * @param {String} words
  * @returns Object
  */
-function makeTransOpt(from, to, words) {
+function makeTransOpt(from, to, words, tokenEtc) {
   if (from === to) { from = 'auto' }
   return {
     from,
     to,
     query: words,
-    transtype: 'realtime',
     simple_means_flag: 3,
-  }
-}
-
-function generateTmplData(suggestion, transResult) {
-  let data = transResult.data || []
-  return {
-    source: data.src || '',
-    result: data.dst || '',
-    suggestion,
-    details: {
-      百度: `http://fanyi.baidu.com/#${data.from}/${data.to}/${data.src}`,
-      谷歌: `https://translate.google.com/#${data.to}/${data.to}/${data.src}`,
-    },
+    sign: bdMd5(words, tokenEtc.gtk || ''),
+    token: tokenEtc.token || '',
   }
 }
 
@@ -93,7 +137,8 @@ function doubleBoxen(str) {
 async function translate(words, to = config.defaultTransTo) {
   try {
     let lang = await detectlang(words)
-    let transOpt = makeTransOpt(lang, to, words)
+    let tokenEtc = await getTokenEtc()
+    let transOpt = makeTransOpt(lang, to, words, tokenEtc)
     let result = await getTranslate(transOpt)
     return result
   } catch (err) {
@@ -109,7 +154,7 @@ async function runTrs(searchWords, transTo = 'zh') {
     let data = generateTmplData(suggestion, transResult)
     spinner.stop()
 
-    logUpdate(chalk.blue(doubleBoxen(config.resultTmpl(data))))
+    logUpdate(chalk.blue(config.resultTmpl(data)))
     process.exit(0)
   } catch (err) {
     spinner.stop()
@@ -120,7 +165,7 @@ async function runTrs(searchWords, transTo = 'zh') {
 
 function main() {
   program
-    .version('0.0.1')
+    .version(pkg.version)
     .arguments('[words...]')
     .option('-t, --transto <lang>', 'translate to particular language')
     .action(words => runTrs(words.join(' '), program.transto))
@@ -162,5 +207,6 @@ if (require.main === module) {
     getSuggestion,
     runTrs,
     translate,
+    getTokenEtc,
   }
 }
