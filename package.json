@@ -7,7 +7,7 @@
     "trs": "./src/index.js"
   },
   "scripts": {
-    "build": "npm-run-all eslint test",
+    "build": "npm-run-all lint test",
     "mock": "json-server ./src/db.json --middlewares ./src/middleware.js --watch",
     "lint": "eslint --cache --fix src/**",
     "test": "jest"
