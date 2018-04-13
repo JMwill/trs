@@ -1,6 +1,5 @@
 language: node_js
 node_js: stable
-
 sudo: false
 
 # Travis-CI Caching
@@ -8,14 +7,22 @@ cache:
   directories:
     - node_modules
 
-
 # S: Build Lifecycle
 install:
-  - npm install
+- npm install
 
 script:
-  - npm run build
+- npm run build
 
 branches:
   only:
-    - master
+  - master
+
+deploy:
+  provider: npm
+  email: jmlsphere@gmail.com
+  api_key:
+    secure: sbxEnZgO7uCf3BkbHVCwvOHxLT0e5UauqWAjw7siEwO7M+hIC0mKBb2srQ7BG7/TOdhoiN9eJU91sgNDMHIeDQWFdp6mx8qLZFd8gh/gHTyRRsM53JwGhsknlXbHILx5EqGFU+8RrLaSJH/oxkHlRsl2gDh4d8CptqXfbBais2VNeUS0bz6/0z2tU8da3oHYFPwspmuMScT/bkEnQ58+9fNThJiiAOpxj3czytuuqThqQGou2ZslJtTyqxqk70g7nO2+EF6It7E0ySTrwQbaDnVO92MhpNKzXIQsAdtoj5mk0Uj7wEeQlU9gWr6Mfe2969/0fqf+eN5/A8RLaOuOWgNT6LsOBoPczhKhLyEdbkUXgQkjJ1htHOOl149LDkVRm10ROL+4fhXKs4ukx9T2hG/b3O0I2F8G9VmWPRpqhkCezCsNDF2Fby8x+HKftskinyXR3uGFRhd78UgUbOjkvjqQbwMyfKOvOfEJ6FxrDRL2uD1ijNfb4GkHemO3Z0tSwuwJ6P0HJRUkKc2B2pqaI1JX/JPvo28EsfUxAR+eOPmh/GuDLKA54S22OfZ8P4TVkbE3gMO/+kzLkO66fDgB1ZcVUvG4xJDq+OM1p9OzFsAg08atSfq4DOW3Au1Uoy7cZg3jipf79E456uI3k62SsUIRCmNKhNU3Rme1Q/EEY9o=
+  on:
+    tags: true
+    branch: master
