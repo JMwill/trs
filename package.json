@@ -2,9 +2,9 @@
   "name": "trs",
   "version": "0.0.2-rc.1",
   "description": "command line translation tool",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
-    "trs": "./src/index.js"
+    "trs": "./dist/index.js"
   },
   "scripts": {
     "build": "npm-run-all clean lint test build:js",
