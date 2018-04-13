@@ -1,4 +1,4 @@
-const helper = require('./index')
+const helper = require('./trs')
 
 test('detectlang function that detect what language are words belong to', async () => {
   await expect(helper.detectlang('你好')).resolves.toEqual('zh')
