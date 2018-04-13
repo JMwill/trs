@@ -1,6 +1,6 @@
 {
   "name": "trs",
-  "version": "0.0.2",
+  "version": "0.0.2-rc.1",
   "description": "command line translation tool",
   "main": "index.js",
   "bin": {
